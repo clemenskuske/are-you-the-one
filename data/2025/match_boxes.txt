@@ -1,0 +1,10 @@
+Matchbox #01: Anna x Josh -> false
+Matchbox #10: Camelia x Josh -> true
+Matchbox #02: Camelia x Levin -> sold
+Matchbox #05: Deisy x Dino -> true
+Matchbox #03: Ina x Sinan -> false
+Matchbox #08: Joanna x Joshua -> false
+Matchbox #04: Nadja x Danish -> true
+Matchbox #09: Nasti x Sinan -> true
+Matchbox #07: Sophia x Kaan -> false
+Matchbox #06: Tori x Tano -> sold

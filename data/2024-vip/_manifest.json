@@ -1,0 +1,632 @@
+{
+  "season": "2024-vip",
+  "page_url": "https://ayto-fans.de/2024-vip/",
+  "candidate_names_found": 21,
+  "candidate_image_urls_found": 21,
+  "downloaded": [
+    {
+      "name": "Alex",
+      "file": "2024-vip/alex.webp",
+      "url": "https://directus.ayto-fans.de/assets/c6681492-c851-4eb7-9f9b-dc00d41ec21d"
+    },
+    {
+      "name": "Anastasia",
+      "file": "2024-vip/anastasia.webp",
+      "url": "https://directus.ayto-fans.de/assets/6a6de111-4229-4170-ad49-6ed6d9fba58a"
+    },
+    {
+      "name": "Antonino",
+      "file": "2024-vip/antonino.webp",
+      "url": "https://directus.ayto-fans.de/assets/d696a3b8-4d61-4a3d-ad6d-61890be98d7c"
+    },
+    {
+      "name": "Asena",
+      "file": "2024-vip/asena.webp",
+      "url": "https://directus.ayto-fans.de/assets/bab3d749-c233-4a2a-ab67-9398c6f14afb"
+    },
+    {
+      "name": "Chris",
+      "file": "2024-vip/chris.webp",
+      "url": "https://directus.ayto-fans.de/assets/fa81388d-5e40-4f48-9f4a-e4852ed04113"
+    },
+    {
+      "name": "Dana",
+      "file": "2024-vip/dana.webp",
+      "url": "https://directus.ayto-fans.de/assets/6883467e-1b91-44d7-8f8a-efb3e0b08bbf"
+    },
+    {
+      "name": "Emmy",
+      "file": "2024-vip/emmy.webp",
+      "url": "https://directus.ayto-fans.de/assets/0867893a-b79d-4b3a-898f-96986095fb31"
+    },
+    {
+      "name": "Gabriela",
+      "file": "2024-vip/gabriela.webp",
+      "url": "https://directus.ayto-fans.de/assets/4db36a95-2b10-4a09-9bab-982f20714753"
+    },
+    {
+      "name": "Jennifer",
+      "file": "2024-vip/jennifer.webp",
+      "url": "https://directus.ayto-fans.de/assets/885ea900-0bdb-4aa3-8099-2411bcdb3210"
+    },
+    {
+      "name": "Kaan",
+      "file": "2024-vip/kaan.webp",
+      "url": "https://directus.ayto-fans.de/assets/799ad761-0aa8-4c0c-b352-c83c59154877"
+    },
+    {
+      "name": "Lars",
+      "file": "2024-vip/lars.webp",
+      "url": "https://directus.ayto-fans.de/assets/d39bfd16-e999-40c9-97ca-da162962b7cd"
+    },
+    {
+      "name": "Laura L.",
+      "file": "2024-vip/laura-l.webp",
+      "url": "https://directus.ayto-fans.de/assets/d314b49e-df75-45b6-a22f-c4204069b360"
+    },
+    {
+      "name": "Laura M.",
+      "file": "2024-vip/laura-m.webp",
+      "url": "https://directus.ayto-fans.de/assets/f64ab5df-5eb9-4434-9a7d-8c1ac0070ded"
+    },
+    {
+      "name": "Linda",
+      "file": "2024-vip/linda.webp",
+      "url": "https://directus.ayto-fans.de/assets/46daefc4-e34a-4adb-a0a9-ce8674e9f658"
+    },
+    {
+      "name": "Lukas",
+      "file": "2024-vip/lukas.webp",
+      "url": "https://directus.ayto-fans.de/assets/c9774aae-ea4c-468b-80db-41d3d3fc784e"
+    },
+    {
+      "name": "Marc-Robin",
+      "file": "2024-vip/marc-robin.webp",
+      "url": "https://directus.ayto-fans.de/assets/07e5abc0-960d-497e-8007-d894a5776e17"
+    },
+    {
+      "name": "Nadja",
+      "file": "2024-vip/nadja.webp",
+      "url": "https://directus.ayto-fans.de/assets/27f964d3-6693-46f2-928d-d5959b6ea362"
+    },
+    {
+      "name": "Nikola",
+      "file": "2024-vip/nikola.webp",
+      "url": "https://directus.ayto-fans.de/assets/a9ed620b-e3c7-4cf7-9eb3-fbcdd9d01c99"
+    },
+    {
+      "name": "Ozan",
+      "file": "2024-vip/ozan.webp",
+      "url": "https://directus.ayto-fans.de/assets/b602e068-db9c-4f99-97dc-a053e6610395"
+    },
+    {
+      "name": "Tara",
+      "file": "2024-vip/tara.webp",
+      "url": "https://directus.ayto-fans.de/assets/b08c7470-abb9-4132-94d9-4a8ec2167477"
+    },
+    {
+      "name": "Tim",
+      "file": "2024-vip/tim.webp",
+      "url": "https://directus.ayto-fans.de/assets/a6f6f7ce-97dd-4647-9c59-920e67ff7f97"
+    }
+  ],
+  "matchboxes_found": 9,
+  "matching_nights_found": 9,
+  "matchboxes": [
+    {
+      "number": 3,
+      "pair": [
+        "Anastasia",
+        "Alex"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 6,
+      "pair": [
+        "Anastasia",
+        "Ozan"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 4,
+      "pair": [
+        "Asena",
+        "Marc-Robin"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 2,
+      "pair": [
+        "Emmy",
+        "Chris"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 7,
+      "pair": [
+        "Jennifer",
+        "Lukas"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 9,
+      "pair": [
+        "Laura L.",
+        "Lars"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 1,
+      "pair": [
+        "Laura L.",
+        "Marc-Robin"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 5,
+      "pair": [
+        "Laura M.",
+        "Nikola"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 8,
+      "pair": [
+        "Linda",
+        "Tim"
+      ],
+      "result": "unknown"
+    }
+  ],
+  "matching_nights": [
+    {
+      "number": 1,
+      "pairs": [
+        [
+          "Anastasia",
+          "Marc-Robin"
+        ],
+        [
+          "Asena",
+          "Kaan"
+        ],
+        [
+          "Emmy",
+          "Chris"
+        ],
+        [
+          "Gabriela",
+          "Ozan"
+        ],
+        [
+          "Jennifer",
+          "Lukas"
+        ],
+        [
+          "Laura L.",
+          "Alex"
+        ],
+        [
+          "Laura M.",
+          "Antonino"
+        ],
+        [
+          "Linda",
+          "Tim"
+        ],
+        [
+          "Nadja",
+          "Lars"
+        ],
+        [
+          "Tara",
+          "Nikola"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2024-vip/matchnight/1/"
+    },
+    {
+      "number": 2,
+      "pairs": [
+        [
+          "Anastasia",
+          "Lars"
+        ],
+        [
+          "Asena",
+          "Marc-Robin"
+        ],
+        [
+          "Dana",
+          "Antonino"
+        ],
+        [
+          "Emmy",
+          "Chris"
+        ],
+        [
+          "Jennifer",
+          "Alex"
+        ],
+        [
+          "Laura L.",
+          "Ozan"
+        ],
+        [
+          "Laura M.",
+          "Lukas"
+        ],
+        [
+          "Linda",
+          "Tim"
+        ],
+        [
+          "Nadja",
+          "Kaan"
+        ],
+        [
+          "Tara",
+          "Nikola"
+        ]
+      ],
+      "singles": [
+        "Gabriela"
+      ],
+      "url": "https://ayto-fans.de/2024-vip/matchnight/2/"
+    },
+    {
+      "number": 3,
+      "pairs": [
+        [
+          "Anastasia",
+          "Alex"
+        ],
+        [
+          "Asena",
+          "Marc-Robin"
+        ],
+        [
+          "Dana",
+          "Tim"
+        ],
+        [
+          "Emmy",
+          "Chris"
+        ],
+        [
+          "Gabriela",
+          "Lars"
+        ],
+        [
+          "Jennifer",
+          "Kaan"
+        ],
+        [
+          "Laura L.",
+          "Nikola"
+        ],
+        [
+          "Laura M.",
+          "Ozan"
+        ],
+        [
+          "Linda",
+          "Lukas"
+        ],
+        [
+          "Nadja",
+          "Antonino"
+        ]
+      ],
+      "singles": [
+        "Tara"
+      ],
+      "url": "https://ayto-fans.de/2024-vip/matchnight/3/"
+    },
+    {
+      "number": 4,
+      "pairs": [
+        [
+          "Anastasia",
+          "Nikola"
+        ],
+        [
+          "Asena",
+          "Kaan"
+        ],
+        [
+          "Emmy",
+          "Chris"
+        ],
+        [
+          "Gabriela",
+          "Lukas"
+        ],
+        [
+          "Jennifer",
+          "Alex"
+        ],
+        [
+          "Laura L.",
+          "Tim"
+        ],
+        [
+          "Laura M.",
+          "Ozan"
+        ],
+        [
+          "Linda",
+          "Marc-Robin"
+        ],
+        [
+          "Nadja",
+          "Antonino"
+        ],
+        [
+          "Tara",
+          "Lars"
+        ]
+      ],
+      "singles": [
+        "Dana"
+      ],
+      "url": "https://ayto-fans.de/2024-vip/matchnight/4/"
+    },
+    {
+      "number": 5,
+      "pairs": [
+        [
+          "Anastasia",
+          "Marc-Robin"
+        ],
+        [
+          "Asena",
+          "Antonino"
+        ],
+        [
+          "Dana",
+          "Ozan"
+        ],
+        [
+          "Emmy",
+          "Chris"
+        ],
+        [
+          "Gabriela",
+          "Alex"
+        ],
+        [
+          "Jennifer",
+          "Lukas"
+        ],
+        [
+          "Laura L.",
+          "Nikola"
+        ],
+        [
+          "Linda",
+          "Tim"
+        ],
+        [
+          "Nadja",
+          "Lars"
+        ],
+        [
+          "Tara",
+          "Kaan"
+        ]
+      ],
+      "singles": [
+        "Laura M."
+      ],
+      "url": "https://ayto-fans.de/2024-vip/matchnight/5/"
+    },
+    {
+      "number": 6,
+      "pairs": [
+        [
+          "Anastasia",
+          "Ozan"
+        ],
+        [
+          "Asena",
+          "Antonino"
+        ],
+        [
+          "Dana",
+          "Lars"
+        ],
+        [
+          "Emmy",
+          "Chris"
+        ],
+        [
+          "Gabriela",
+          "Alex"
+        ],
+        [
+          "Jennifer",
+          "Lukas"
+        ],
+        [
+          "Laura M.",
+          "Marc-Robin"
+        ],
+        [
+          "Linda",
+          "Tim"
+        ],
+        [
+          "Nadja",
+          "Nikola"
+        ],
+        [
+          "Tara",
+          "Kaan"
+        ]
+      ],
+      "singles": [
+        "Laura L."
+      ],
+      "url": "https://ayto-fans.de/2024-vip/matchnight/6/"
+    },
+    {
+      "number": 7,
+      "pairs": [
+        [
+          "Anastasia",
+          "Ozan"
+        ],
+        [
+          "Asena",
+          "Antonino"
+        ],
+        [
+          "Dana",
+          "Lukas"
+        ],
+        [
+          "Emmy",
+          "Chris"
+        ],
+        [
+          "Gabriela",
+          "Alex"
+        ],
+        [
+          "Laura L.",
+          "Lars"
+        ],
+        [
+          "Laura M.",
+          "Marc-Robin"
+        ],
+        [
+          "Linda",
+          "Tim"
+        ],
+        [
+          "Nadja",
+          "Nikola"
+        ],
+        [
+          "Tara",
+          "Kaan"
+        ]
+      ],
+      "singles": [
+        "Jennifer"
+      ],
+      "url": "https://ayto-fans.de/2024-vip/matchnight/7/"
+    },
+    {
+      "number": 8,
+      "pairs": [
+        [
+          "Anastasia",
+          "Ozan"
+        ],
+        [
+          "Asena",
+          "Antonino"
+        ],
+        [
+          "Emmy",
+          "Chris"
+        ],
+        [
+          "Gabriela",
+          "Alex"
+        ],
+        [
+          "Jennifer",
+          "Kaan"
+        ],
+        [
+          "Laura L.",
+          "Lars"
+        ],
+        [
+          "Laura M.",
+          "Marc-Robin"
+        ],
+        [
+          "Linda",
+          "Tim"
+        ],
+        [
+          "Nadja",
+          "Nikola"
+        ],
+        [
+          "Tara",
+          "Lukas"
+        ]
+      ],
+      "singles": [
+        "Dana"
+      ],
+      "url": "https://ayto-fans.de/2024-vip/matchnight/8/"
+    },
+    {
+      "number": 9,
+      "pairs": [
+        [
+          "Anastasia",
+          "Ozan"
+        ],
+        [
+          "Asena",
+          "Antonino"
+        ],
+        [
+          "Emmy",
+          "Chris"
+        ],
+        [
+          "Gabriela",
+          "Alex"
+        ],
+        [
+          "Jennifer",
+          "Lars"
+        ],
+        [
+          "Laura L.",
+          "Nikola"
+        ],
+        [
+          "Laura M.",
+          "Marc-Robin"
+        ],
+        [
+          "Linda",
+          "Tim"
+        ],
+        [
+          "Nadja",
+          "Kaan"
+        ],
+        [
+          "Tara",
+          "Lukas"
+        ]
+      ],
+      "singles": [
+        "Dana"
+      ],
+      "url": "https://ayto-fans.de/2024-vip/matchnight/9/"
+    }
+  ],
+  "failures": [],
+  "warnings": []
+}

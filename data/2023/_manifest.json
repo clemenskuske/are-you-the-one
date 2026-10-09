@@ -1,0 +1,683 @@
+{
+  "season": "2023",
+  "page_url": "https://ayto-fans.de/2023/",
+  "candidate_names_found": 22,
+  "candidate_image_urls_found": 22,
+  "downloaded": [
+    {
+      "name": "Afra",
+      "file": "2023/afra.webp",
+      "url": "https://directus.ayto-fans.de/assets/64207df2-985d-4956-b706-d2ec613a8836"
+    },
+    {
+      "name": "Edda",
+      "file": "2023/edda.webp",
+      "url": "https://directus.ayto-fans.de/assets/021c1681-031c-4f87-a235-6486ac286d68"
+    },
+    {
+      "name": "Eti",
+      "file": "2023/eti.webp",
+      "url": "https://directus.ayto-fans.de/assets/a6af0a73-6c9f-4618-9096-d69cad7b9eee"
+    },
+    {
+      "name": "Gerrit",
+      "file": "2023/gerrit.webp",
+      "url": "https://directus.ayto-fans.de/assets/240947d1-3e67-40fe-8b2c-8aa865e5c156"
+    },
+    {
+      "name": "Jana",
+      "file": "2023/jana.webp",
+      "url": "https://directus.ayto-fans.de/assets/3eb8bc4c-c4a4-4d11-8937-18967d3b04cd"
+    },
+    {
+      "name": "Julia",
+      "file": "2023/julia.webp",
+      "url": "https://directus.ayto-fans.de/assets/6aad510f-af26-4b72-b533-20f7c812932e"
+    },
+    {
+      "name": "Kevin",
+      "file": "2023/kevin.webp",
+      "url": "https://directus.ayto-fans.de/assets/1507dbcd-2c21-46d4-a579-f5dbb78af625"
+    },
+    {
+      "name": "Lina",
+      "file": "2023/lina.webp",
+      "url": "https://directus.ayto-fans.de/assets/be4c1464-55fd-4122-a6bb-55e69be032ec"
+    },
+    {
+      "name": "Lisa-Marie",
+      "file": "2023/lisa-marie.webp",
+      "url": "https://directus.ayto-fans.de/assets/0ea3006a-c7cd-4b37-8333-4a831ed58506"
+    },
+    {
+      "name": "Maja",
+      "file": "2023/maja.webp",
+      "url": "https://directus.ayto-fans.de/assets/f255a676-a2b5-4287-a7e1-f082d216fd16"
+    },
+    {
+      "name": "Martin",
+      "file": "2023/martin.webp",
+      "url": "https://directus.ayto-fans.de/assets/579ad8fb-aca0-40b5-9bd9-d1d8695d09a2"
+    },
+    {
+      "name": "Mela",
+      "file": "2023/mela.webp",
+      "url": "https://directus.ayto-fans.de/assets/b3828160-e8f0-46fd-9ac6-4b0282e36a61"
+    },
+    {
+      "name": "Paddy",
+      "file": "2023/paddy.webp",
+      "url": "https://directus.ayto-fans.de/assets/16b1a875-c3a4-48e6-9152-4f483c1c2170"
+    },
+    {
+      "name": "Paul",
+      "file": "2023/paul.webp",
+      "url": "https://directus.ayto-fans.de/assets/c5a19722-c14e-4e4b-9425-4e87994b9b2d"
+    },
+    {
+      "name": "Pia",
+      "file": "2023/pia.webp",
+      "url": "https://directus.ayto-fans.de/assets/24676bc5-ea3d-44c9-b36f-3f4e6e505170"
+    },
+    {
+      "name": "Ryan",
+      "file": "2023/ryan.webp",
+      "url": "https://directus.ayto-fans.de/assets/9e71cf42-cc30-44be-8d3b-a168bd458f73"
+    },
+    {
+      "name": "Sandro",
+      "file": "2023/sandro.webp",
+      "url": "https://directus.ayto-fans.de/assets/2a8cde18-626f-4a7a-9af6-82f73abaeebd"
+    },
+    {
+      "name": "Shelly",
+      "file": "2023/shelly.webp",
+      "url": "https://directus.ayto-fans.de/assets/d509c6d3-ec98-4670-8fb7-be233210e428"
+    },
+    {
+      "name": "Sidar",
+      "file": "2023/sidar.webp",
+      "url": "https://directus.ayto-fans.de/assets/d3146bf7-c8ad-4513-9876-41c6d3d583cc"
+    },
+    {
+      "name": "Sina",
+      "file": "2023/sina.webp",
+      "url": "https://directus.ayto-fans.de/assets/9f604a75-3e36-4f3b-ab3c-36bb37e036ac"
+    },
+    {
+      "name": "Tais",
+      "file": "2023/tais.webp",
+      "url": "https://directus.ayto-fans.de/assets/ccd49b6b-2a8b-4e09-bb62-3b993fa098bb"
+    },
+    {
+      "name": "Wilson",
+      "file": "2023/wilson.webp",
+      "url": "https://directus.ayto-fans.de/assets/3cfdfb1a-6f5d-4f88-b790-5263f6128e24"
+    }
+  ],
+  "matchboxes_found": 10,
+  "matching_nights_found": 10,
+  "matchboxes": [
+    {
+      "number": 10,
+      "pair": [
+        "Afra",
+        "Sandro"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 1,
+      "pair": [
+        "Jana",
+        "Paul"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 8,
+      "pair": [
+        "Julia",
+        "Paul"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 2,
+      "pair": [
+        "Lina",
+        "Ryan"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 9,
+      "pair": [
+        "Maja",
+        "Eti"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 3,
+      "pair": [
+        "Maja",
+        "Kevin"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 4,
+      "pair": [
+        "Mela",
+        "Eti"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 5,
+      "pair": [
+        "Shelly",
+        "Wilson"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 7,
+      "pair": [
+        "Sina",
+        "Sandro"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 6,
+      "pair": [
+        "Tais",
+        "Gerrit"
+      ],
+      "result": "unknown"
+    }
+  ],
+  "matching_nights": [
+    {
+      "number": 1,
+      "pairs": [
+        [
+          "Edda",
+          "Sandro"
+        ],
+        [
+          "Jana",
+          "Sidar"
+        ],
+        [
+          "Julia",
+          "Martin"
+        ],
+        [
+          "Lina",
+          "Ryan"
+        ],
+        [
+          "Lisa-Marie",
+          "Eti"
+        ],
+        [
+          "Maja",
+          "Paddy"
+        ],
+        [
+          "Pia",
+          "Gerrit"
+        ],
+        [
+          "Shelly",
+          "Wilson"
+        ],
+        [
+          "Sina",
+          "Kevin"
+        ],
+        [
+          "Tais",
+          "Paul"
+        ]
+      ],
+      "singles": [
+        "Afra"
+      ],
+      "url": "https://ayto-fans.de/2023/matchnight/1/"
+    },
+    {
+      "number": 2,
+      "pairs": [
+        [
+          "Afra",
+          "Eti"
+        ],
+        [
+          "Edda",
+          "Sandro"
+        ],
+        [
+          "Jana",
+          "Sidar"
+        ],
+        [
+          "Lina",
+          "Martin"
+        ],
+        [
+          "Lisa-Marie",
+          "Paul"
+        ],
+        [
+          "Maja",
+          "Wilson"
+        ],
+        [
+          "Pia",
+          "Ryan"
+        ],
+        [
+          "Shelly",
+          "Paddy"
+        ],
+        [
+          "Sina",
+          "Kevin"
+        ],
+        [
+          "Tais",
+          "Gerrit"
+        ]
+      ],
+      "singles": [
+        "Julia"
+      ],
+      "url": "https://ayto-fans.de/2023/matchnight/2/"
+    },
+    {
+      "number": 3,
+      "pairs": [
+        [
+          "Afra",
+          "Sidar"
+        ],
+        [
+          "Edda",
+          "Paul"
+        ],
+        [
+          "Jana",
+          "Ryan"
+        ],
+        [
+          "Julia",
+          "Paddy"
+        ],
+        [
+          "Lisa-Marie",
+          "Martin"
+        ],
+        [
+          "Maja",
+          "Eti"
+        ],
+        [
+          "Mela",
+          "Kevin"
+        ],
+        [
+          "Shelly",
+          "Wilson"
+        ],
+        [
+          "Sina",
+          "Sandro"
+        ],
+        [
+          "Tais",
+          "Gerrit"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2023/matchnight/3/"
+    },
+    {
+      "number": 4,
+      "pairs": [
+        [
+          "Afra",
+          "Eti"
+        ],
+        [
+          "Edda",
+          "Ryan"
+        ],
+        [
+          "Jana",
+          "Sidar"
+        ],
+        [
+          "Julia",
+          "Martin"
+        ],
+        [
+          "Lina",
+          "Paddy"
+        ],
+        [
+          "Lisa-Marie",
+          "Paul"
+        ],
+        [
+          "Pia",
+          "Sandro"
+        ],
+        [
+          "Shelly",
+          "Wilson"
+        ],
+        [
+          "Sina",
+          "Kevin"
+        ],
+        [
+          "Tais",
+          "Gerrit"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2023/matchnight/4/"
+    },
+    {
+      "number": 5,
+      "pairs": [
+        [
+          "Afra",
+          "Sidar"
+        ],
+        [
+          "Edda",
+          "Paul"
+        ],
+        [
+          "Jana",
+          "Ryan"
+        ],
+        [
+          "Julia",
+          "Kevin"
+        ],
+        [
+          "Lina",
+          "Paddy"
+        ],
+        [
+          "Lisa-Marie",
+          "Martin"
+        ],
+        [
+          "Maja",
+          "Eti"
+        ],
+        [
+          "Shelly",
+          "Wilson"
+        ],
+        [
+          "Sina",
+          "Sandro"
+        ],
+        [
+          "Tais",
+          "Gerrit"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2023/matchnight/5/"
+    },
+    {
+      "number": 6,
+      "pairs": [
+        [
+          "Afra",
+          "Sandro"
+        ],
+        [
+          "Edda",
+          "Paddy"
+        ],
+        [
+          "Jana",
+          "Ryan"
+        ],
+        [
+          "Julia",
+          "Sidar"
+        ],
+        [
+          "Lina",
+          "Kevin"
+        ],
+        [
+          "Lisa-Marie",
+          "Martin"
+        ],
+        [
+          "Maja",
+          "Eti"
+        ],
+        [
+          "Shelly",
+          "Wilson"
+        ],
+        [
+          "Sina",
+          "Paul"
+        ],
+        [
+          "Tais",
+          "Gerrit"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2023/matchnight/6/"
+    },
+    {
+      "number": 7,
+      "pairs": [
+        [
+          "Afra",
+          "Martin"
+        ],
+        [
+          "Edda",
+          "Ryan"
+        ],
+        [
+          "Jana",
+          "Paddy"
+        ],
+        [
+          "Julia",
+          "Sandro"
+        ],
+        [
+          "Lina",
+          "Kevin"
+        ],
+        [
+          "Lisa-Marie",
+          "Sidar"
+        ],
+        [
+          "Maja",
+          "Eti"
+        ],
+        [
+          "Shelly",
+          "Wilson"
+        ],
+        [
+          "Sina",
+          "Paul"
+        ],
+        [
+          "Tais",
+          "Gerrit"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2023/matchnight/7/"
+    },
+    {
+      "number": 8,
+      "pairs": [
+        [
+          "Afra",
+          "Eti"
+        ],
+        [
+          "Edda",
+          "Ryan"
+        ],
+        [
+          "Jana",
+          "Paddy"
+        ],
+        [
+          "Julia",
+          "Sandro"
+        ],
+        [
+          "Lina",
+          "Kevin"
+        ],
+        [
+          "Lisa-Marie",
+          "Martin"
+        ],
+        [
+          "Maja",
+          "Sidar"
+        ],
+        [
+          "Shelly",
+          "Wilson"
+        ],
+        [
+          "Sina",
+          "Paul"
+        ],
+        [
+          "Tais",
+          "Gerrit"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2023/matchnight/8/"
+    },
+    {
+      "number": 9,
+      "pairs": [
+        [
+          "Afra",
+          "Sidar"
+        ],
+        [
+          "Edda",
+          "Paul"
+        ],
+        [
+          "Jana",
+          "Ryan"
+        ],
+        [
+          "Julia",
+          "Sandro"
+        ],
+        [
+          "Lina",
+          "Kevin"
+        ],
+        [
+          "Lisa-Marie",
+          "Martin"
+        ],
+        [
+          "Maja",
+          "Eti"
+        ],
+        [
+          "Shelly",
+          "Wilson"
+        ],
+        [
+          "Sina",
+          "Paddy"
+        ],
+        [
+          "Tais",
+          "Gerrit"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2023/matchnight/9/"
+    },
+    {
+      "number": 10,
+      "pairs": [
+        [
+          "Afra",
+          "Martin"
+        ],
+        [
+          "Edda",
+          "Paddy"
+        ],
+        [
+          "Jana",
+          "Ryan"
+        ],
+        [
+          "Julia",
+          "Sandro"
+        ],
+        [
+          "Lina",
+          "Kevin"
+        ],
+        [
+          "Lisa-Marie",
+          "Paul"
+        ],
+        [
+          "Maja",
+          "Eti"
+        ],
+        [
+          "Shelly",
+          "Wilson"
+        ],
+        [
+          "Sina",
+          "Sidar"
+        ],
+        [
+          "Tais",
+          "Gerrit"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2023/matchnight/10/"
+    }
+  ],
+  "failures": [],
+  "warnings": [
+    "Expected 21 candidate names, found 22.",
+    "Expected 21 candidate image URLs, found 22."
+  ]
+}

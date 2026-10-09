@@ -1,0 +1,124 @@
+Matchnight #01 — Matches: 2
+  - Antonia x Lennert
+  - Ariel x Nico
+  - Beverly x Calvin S.
+  - Elissia x Xander
+  - Hati x Calvin O.
+  - Henna x Jonny
+  - Joanna x Rob
+  - Nelly x Sidar
+  - Sandra x Kevin
+  - Viki x Leandro
+  Geht leer aus: Oliver
+
+Matchnight #02 — Matches: 2
+  - Antonia x Jonny
+  - Ariel x Nico
+  - Beverly x Sidar
+  - Elissia x Xander
+  - Hati x Calvin O.
+  - Henna x Oliver
+  - Joanna x Calvin S.
+  - Nelly x Rob
+  - Sandra x Kevin
+  - Viki x Leandro
+  Geht leer aus: Lennert
+
+Matchnight #03 — Matches: 2
+  - Antonia x Oliver
+  - Ariel x Calvin O.
+  - Beverly x Nico
+  - Elissia x Xander
+  - Hati x Rob
+  - Henna x Leandro
+  - Joanna x Calvin S.
+  - Nelly x Lennert
+  - Sandra x Kevin
+  - Viki x Jonny
+  Geht leer aus: Sidar
+
+Matchnight #04 — Matches: 3
+  - Antonia x Oliver
+  - Ariel x Nico
+  - Beverly x Sidar
+  - Elissia x Xander
+  - Hati x Rob
+  - Henna x Lennert
+  - Joanna x Calvin S.
+  - Nelly x Calvin O.
+  - Sandra x Leandro
+  - Viki x Kevin
+  Geht leer aus: Jonny
+
+Matchnight #05 — Matches: 4
+  - Antonia x Oliver
+  - Ariel x Nico
+  - Beverly x Sidar
+  - Elissia x Xander
+  - Hati x Rob
+  - Henna x Jimmy Blue
+  - Joanna x Calvin S.
+  - Nelly x Calvin O.
+  - Sandra x Lennert
+  - Viki x Kevin
+
+Matchnight #06 — Matches: 4
+  - Antonia x Calvin S.
+  - Ariel x Kevin
+  - Beverly x Leandro
+  - Elissia x Xander
+  - Hati x Jimmy Blue
+  - Henna x Oliver
+  - Joanna x Sidar
+  - Nelly x Calvin O.
+  - Sandra x Lennert
+  - Viki x Jonny
+
+Matchnight #07 — Matches: 5
+  - Antonia x Calvin S.
+  - Ariel x Leandro
+  - Beverly x Nico
+  - Elissia x Xander
+  - Hati x Jonny
+  - Henna x Oliver
+  - Joanna x Sidar
+  - Nelly x Rob
+  - Sandra x Lennert
+  - Viki x Kevin
+  Geht leer aus: Calvin O.
+
+Matchnight #08 — Matches: 4
+  - Antonia x Calvin S.
+  - Ariel x Kevin
+  - Beverly x Nico
+  - Elissia x Xander
+  - Hati x Jonny
+  - Henna x Oliver
+  - Joanna x Calvin O.
+  - Nelly x Rob
+  - Sandra x Lennert
+  - Viki x Leandro
+  Geht leer aus: Sidar
+
+Matchnight #09 — Matches: 4
+  - Antonia x Jonny
+  - Ariel x Leandro
+  - Beverly x Sidar
+  - Elissia x Xander
+  - Hati x Kevin
+  - Henna x Oliver
+  - Joanna x Calvin S.
+  - Nelly x Calvin O.
+  - Sandra x Lennert
+  - Viki x Rob
+  Geht leer aus: Nico
+
+Matchnight #10 — Matches: 7
+  - Antonia x Calvin S.
+  - Ariel x Oliver
+  - Beverly x Nico
+  - Hati x Sidar
+  - Henna x Leandro
+  - Joanna x Rob
+  - Viki x Kevin
+  Geht leer aus: Jonny

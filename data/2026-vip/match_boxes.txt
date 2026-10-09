@@ -1,0 +1,8 @@
+Matchbox #01: Christin x Marwin -> false (before Matchnight #01)
+Matchbox #02: Marta x Robin -> false (before Matchnight #01)
+Matchbox #03: Julia x Daymian -> false (before Matchnight #02)
+Matchbox #04: Marta x Johannes -> true (before Matchnight #03)
+Matchbox #05: Julia x Bennett -> false (before Matchnight #04)
+Matchbox #06: Emma x Laurenz -> sold 10000 (before Matchnight #05)
+Matchbox #07: Michelle x Raúl -> false (before Matchnight #06)
+Matchbox #08: Jenny x Daymian -> true (before Matchnight #07)

@@ -1,0 +1,683 @@
+{
+  "season": "2025-vip",
+  "page_url": "https://ayto-fans.de/2025-vip/",
+  "candidate_names_found": 22,
+  "candidate_image_urls_found": 22,
+  "downloaded": [
+    {
+      "name": "Antonia",
+      "file": "2025-vip/antonia.webp",
+      "url": "https://directus.ayto-fans.de/assets/4301fe1a-f48b-412b-b2ff-83f7c872c4c6"
+    },
+    {
+      "name": "Ariel",
+      "file": "2025-vip/ariel.webp",
+      "url": "https://directus.ayto-fans.de/assets/1e60fdea-4bb6-4017-9e5c-62e55abee45f"
+    },
+    {
+      "name": "Beverly",
+      "file": "2025-vip/beverly.webp",
+      "url": "https://directus.ayto-fans.de/assets/2cce1853-28a9-4ce1-ad7a-c9f3224b8169"
+    },
+    {
+      "name": "Calvin O.",
+      "file": "2025-vip/calvin-o.webp",
+      "url": "https://directus.ayto-fans.de/assets/db253409-94ae-4eb5-8191-ea4c898e3a3d"
+    },
+    {
+      "name": "Calvin S.",
+      "file": "2025-vip/calvin-s.webp",
+      "url": "https://directus.ayto-fans.de/assets/d9a79ff6-4303-45cb-8fd3-cdcf27beb88b"
+    },
+    {
+      "name": "Elissia",
+      "file": "2025-vip/elissia.webp",
+      "url": "https://directus.ayto-fans.de/assets/90bdf698-1ae2-4bb6-b13a-b6b9a6093030"
+    },
+    {
+      "name": "Hati",
+      "file": "2025-vip/hati.webp",
+      "url": "https://directus.ayto-fans.de/assets/71fdf0fa-6508-4293-a983-b9b3130d5da8"
+    },
+    {
+      "name": "Henna",
+      "file": "2025-vip/henna.webp",
+      "url": "https://directus.ayto-fans.de/assets/8f79fed3-cb7f-46f1-8dde-7e76b4ca3cf0"
+    },
+    {
+      "name": "Jimmy Blue",
+      "file": "2025-vip/jimmy-blue.webp",
+      "url": "https://directus.ayto-fans.de/assets/d201eee1-5bb3-46c6-91fb-06648f3ece7e"
+    },
+    {
+      "name": "Joanna",
+      "file": "2025-vip/joanna.webp",
+      "url": "https://directus.ayto-fans.de/assets/cf2ced60-62fd-48f8-9072-b7b8ab677028"
+    },
+    {
+      "name": "Jonny",
+      "file": "2025-vip/jonny.webp",
+      "url": "https://directus.ayto-fans.de/assets/94e09740-9b1b-4122-b836-b6d43dd348af"
+    },
+    {
+      "name": "Kevin",
+      "file": "2025-vip/kevin.webp",
+      "url": "https://directus.ayto-fans.de/assets/a2a5475e-7e5c-4b0e-bd1a-8a9be43dcb6d"
+    },
+    {
+      "name": "Leandro",
+      "file": "2025-vip/leandro.webp",
+      "url": "https://directus.ayto-fans.de/assets/8f925295-67b0-4f76-bc5c-55ba48bf3ccf"
+    },
+    {
+      "name": "Lennert",
+      "file": "2025-vip/lennert.webp",
+      "url": "https://directus.ayto-fans.de/assets/4aae72f8-c1c4-436c-94bb-7ebbbee770e1"
+    },
+    {
+      "name": "Nelly",
+      "file": "2025-vip/nelly.webp",
+      "url": "https://directus.ayto-fans.de/assets/52ee50a4-a454-4ec8-9556-ea12ac8c7ff3"
+    },
+    {
+      "name": "Nico",
+      "file": "2025-vip/nico.webp",
+      "url": "https://directus.ayto-fans.de/assets/c61e8a2b-e755-4b67-ac66-7a2edf5c78dd"
+    },
+    {
+      "name": "Oliver",
+      "file": "2025-vip/oliver.webp",
+      "url": "https://directus.ayto-fans.de/assets/78a9ad45-582c-4755-86c3-fd17a59ed942"
+    },
+    {
+      "name": "Rob",
+      "file": "2025-vip/rob.webp",
+      "url": "https://directus.ayto-fans.de/assets/5c565acd-ea63-4d88-86b3-106fdaac97f2"
+    },
+    {
+      "name": "Sandra",
+      "file": "2025-vip/sandra.webp",
+      "url": "https://directus.ayto-fans.de/assets/1898a6a3-9026-4130-8307-22d22626ca41"
+    },
+    {
+      "name": "Sidar",
+      "file": "2025-vip/sidar.webp",
+      "url": "https://directus.ayto-fans.de/assets/8686c488-4fc8-4f67-bc5b-03492b632c22"
+    },
+    {
+      "name": "Viki",
+      "file": "2025-vip/viki.webp",
+      "url": "https://directus.ayto-fans.de/assets/59d311e8-b04c-4207-a814-1129df5b9a4f"
+    },
+    {
+      "name": "Xander",
+      "file": "2025-vip/xander.webp",
+      "url": "https://directus.ayto-fans.de/assets/935914ad-149a-4262-b6cd-ec76e7a8fcdc"
+    }
+  ],
+  "matchboxes_found": 10,
+  "matching_nights_found": 10,
+  "matchboxes": [
+    {
+      "number": 8,
+      "pair": [
+        "Antonia",
+        "Oliver"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 4,
+      "pair": [
+        "Beverly",
+        "Jonny"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 2,
+      "pair": [
+        "Elissia",
+        "Xander"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 9,
+      "pair": [
+        "Hati",
+        "Jimmy Blue"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 10,
+      "pair": [
+        "Henna",
+        "Sidar"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 3,
+      "pair": [
+        "Nelly",
+        "Calvin S."
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 6,
+      "pair": [
+        "Nelly",
+        "Jimmy Blue"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 1,
+      "pair": [
+        "Sandra",
+        "Kevin"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 5,
+      "pair": [
+        "Sandra",
+        "Leandro"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 7,
+      "pair": [
+        "Sandra",
+        "Lennert"
+      ],
+      "result": "unknown"
+    }
+  ],
+  "matching_nights": [
+    {
+      "number": 1,
+      "pairs": [
+        [
+          "Antonia",
+          "Lennert"
+        ],
+        [
+          "Ariel",
+          "Nico"
+        ],
+        [
+          "Beverly",
+          "Calvin S."
+        ],
+        [
+          "Elissia",
+          "Xander"
+        ],
+        [
+          "Hati",
+          "Calvin O."
+        ],
+        [
+          "Henna",
+          "Jonny"
+        ],
+        [
+          "Joanna",
+          "Rob"
+        ],
+        [
+          "Nelly",
+          "Sidar"
+        ],
+        [
+          "Sandra",
+          "Kevin"
+        ],
+        [
+          "Viki",
+          "Leandro"
+        ]
+      ],
+      "singles": [
+        "Oliver"
+      ],
+      "url": "https://ayto-fans.de/2025-vip/matchnight/1/"
+    },
+    {
+      "number": 2,
+      "pairs": [
+        [
+          "Antonia",
+          "Jonny"
+        ],
+        [
+          "Ariel",
+          "Nico"
+        ],
+        [
+          "Beverly",
+          "Sidar"
+        ],
+        [
+          "Elissia",
+          "Xander"
+        ],
+        [
+          "Hati",
+          "Calvin O."
+        ],
+        [
+          "Henna",
+          "Oliver"
+        ],
+        [
+          "Joanna",
+          "Calvin S."
+        ],
+        [
+          "Nelly",
+          "Rob"
+        ],
+        [
+          "Sandra",
+          "Kevin"
+        ],
+        [
+          "Viki",
+          "Leandro"
+        ]
+      ],
+      "singles": [
+        "Lennert"
+      ],
+      "url": "https://ayto-fans.de/2025-vip/matchnight/2/"
+    },
+    {
+      "number": 3,
+      "pairs": [
+        [
+          "Antonia",
+          "Oliver"
+        ],
+        [
+          "Ariel",
+          "Calvin O."
+        ],
+        [
+          "Beverly",
+          "Nico"
+        ],
+        [
+          "Elissia",
+          "Xander"
+        ],
+        [
+          "Hati",
+          "Rob"
+        ],
+        [
+          "Henna",
+          "Leandro"
+        ],
+        [
+          "Joanna",
+          "Calvin S."
+        ],
+        [
+          "Nelly",
+          "Lennert"
+        ],
+        [
+          "Sandra",
+          "Kevin"
+        ],
+        [
+          "Viki",
+          "Jonny"
+        ]
+      ],
+      "singles": [
+        "Sidar"
+      ],
+      "url": "https://ayto-fans.de/2025-vip/matchnight/3/"
+    },
+    {
+      "number": 4,
+      "pairs": [
+        [
+          "Antonia",
+          "Oliver"
+        ],
+        [
+          "Ariel",
+          "Nico"
+        ],
+        [
+          "Beverly",
+          "Sidar"
+        ],
+        [
+          "Elissia",
+          "Xander"
+        ],
+        [
+          "Hati",
+          "Rob"
+        ],
+        [
+          "Henna",
+          "Lennert"
+        ],
+        [
+          "Joanna",
+          "Calvin S."
+        ],
+        [
+          "Nelly",
+          "Calvin O."
+        ],
+        [
+          "Sandra",
+          "Leandro"
+        ],
+        [
+          "Viki",
+          "Kevin"
+        ]
+      ],
+      "singles": [
+        "Jonny"
+      ],
+      "url": "https://ayto-fans.de/2025-vip/matchnight/4/"
+    },
+    {
+      "number": 5,
+      "pairs": [
+        [
+          "Antonia",
+          "Oliver"
+        ],
+        [
+          "Ariel",
+          "Nico"
+        ],
+        [
+          "Beverly",
+          "Sidar"
+        ],
+        [
+          "Elissia",
+          "Xander"
+        ],
+        [
+          "Hati",
+          "Rob"
+        ],
+        [
+          "Henna",
+          "Jimmy Blue"
+        ],
+        [
+          "Joanna",
+          "Calvin S."
+        ],
+        [
+          "Nelly",
+          "Calvin O."
+        ],
+        [
+          "Sandra",
+          "Lennert"
+        ],
+        [
+          "Viki",
+          "Kevin"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2025-vip/matchnight/5/"
+    },
+    {
+      "number": 6,
+      "pairs": [
+        [
+          "Antonia",
+          "Calvin S."
+        ],
+        [
+          "Ariel",
+          "Kevin"
+        ],
+        [
+          "Beverly",
+          "Leandro"
+        ],
+        [
+          "Elissia",
+          "Xander"
+        ],
+        [
+          "Hati",
+          "Jimmy Blue"
+        ],
+        [
+          "Henna",
+          "Oliver"
+        ],
+        [
+          "Joanna",
+          "Sidar"
+        ],
+        [
+          "Nelly",
+          "Calvin O."
+        ],
+        [
+          "Sandra",
+          "Lennert"
+        ],
+        [
+          "Viki",
+          "Jonny"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2025-vip/matchnight/6/"
+    },
+    {
+      "number": 7,
+      "pairs": [
+        [
+          "Antonia",
+          "Calvin S."
+        ],
+        [
+          "Ariel",
+          "Leandro"
+        ],
+        [
+          "Beverly",
+          "Nico"
+        ],
+        [
+          "Elissia",
+          "Xander"
+        ],
+        [
+          "Hati",
+          "Jonny"
+        ],
+        [
+          "Henna",
+          "Oliver"
+        ],
+        [
+          "Joanna",
+          "Sidar"
+        ],
+        [
+          "Nelly",
+          "Rob"
+        ],
+        [
+          "Sandra",
+          "Lennert"
+        ],
+        [
+          "Viki",
+          "Kevin"
+        ]
+      ],
+      "singles": [
+        "Calvin O."
+      ],
+      "url": "https://ayto-fans.de/2025-vip/matchnight/7/"
+    },
+    {
+      "number": 8,
+      "pairs": [
+        [
+          "Antonia",
+          "Calvin S."
+        ],
+        [
+          "Ariel",
+          "Kevin"
+        ],
+        [
+          "Beverly",
+          "Nico"
+        ],
+        [
+          "Elissia",
+          "Xander"
+        ],
+        [
+          "Hati",
+          "Jonny"
+        ],
+        [
+          "Henna",
+          "Oliver"
+        ],
+        [
+          "Joanna",
+          "Calvin O."
+        ],
+        [
+          "Nelly",
+          "Rob"
+        ],
+        [
+          "Sandra",
+          "Lennert"
+        ],
+        [
+          "Viki",
+          "Leandro"
+        ]
+      ],
+      "singles": [
+        "Sidar"
+      ],
+      "url": "https://ayto-fans.de/2025-vip/matchnight/8/"
+    },
+    {
+      "number": 9,
+      "pairs": [
+        [
+          "Antonia",
+          "Jonny"
+        ],
+        [
+          "Ariel",
+          "Leandro"
+        ],
+        [
+          "Beverly",
+          "Sidar"
+        ],
+        [
+          "Elissia",
+          "Xander"
+        ],
+        [
+          "Hati",
+          "Kevin"
+        ],
+        [
+          "Henna",
+          "Oliver"
+        ],
+        [
+          "Joanna",
+          "Calvin S."
+        ],
+        [
+          "Nelly",
+          "Calvin O."
+        ],
+        [
+          "Sandra",
+          "Lennert"
+        ],
+        [
+          "Viki",
+          "Rob"
+        ]
+      ],
+      "singles": [
+        "Nico"
+      ],
+      "url": "https://ayto-fans.de/2025-vip/matchnight/9/"
+    },
+    {
+      "number": 10,
+      "pairs": [
+        [
+          "Antonia",
+          "Calvin S."
+        ],
+        [
+          "Ariel",
+          "Oliver"
+        ],
+        [
+          "Beverly",
+          "Nico"
+        ],
+        [
+          "Hati",
+          "Sidar"
+        ],
+        [
+          "Henna",
+          "Leandro"
+        ],
+        [
+          "Joanna",
+          "Rob"
+        ],
+        [
+          "Viki",
+          "Kevin"
+        ]
+      ],
+      "singles": [
+        "Jonny"
+      ],
+      "url": "https://ayto-fans.de/2025-vip/matchnight/10/"
+    }
+  ],
+  "failures": [],
+  "warnings": [
+    "Expected 21 candidate names, found 22.",
+    "Expected 21 candidate image URLs, found 22."
+  ]
+}

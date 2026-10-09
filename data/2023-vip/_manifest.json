@@ -1,0 +1,677 @@
+{
+  "season": "2023-vip",
+  "page_url": "https://ayto-fans.de/2023-vip/",
+  "candidate_names_found": 21,
+  "candidate_image_urls_found": 21,
+  "downloaded": [
+    {
+      "name": "Alicia",
+      "file": "2023-vip/alicia.webp",
+      "url": "https://directus.ayto-fans.de/assets/e513d831-d9bc-4e89-a720-c5a851afa380"
+    },
+    {
+      "name": "Christina-Shakira",
+      "file": "2023-vip/christina-shakira.webp",
+      "url": "https://directus.ayto-fans.de/assets/3b6901ff-d8b4-491d-b16d-69102c1f7698"
+    },
+    {
+      "name": "Danielo",
+      "file": "2023-vip/danielo.webp",
+      "url": "https://directus.ayto-fans.de/assets/74c892f2-9cd2-414c-b242-b2a6848fd8dc"
+    },
+    {
+      "name": "Darya",
+      "file": "2023-vip/darya.webp",
+      "url": "https://directus.ayto-fans.de/assets/775481ce-c927-41fe-918a-9686867623df"
+    },
+    {
+      "name": "Elia",
+      "file": "2023-vip/elia.webp",
+      "url": "https://directus.ayto-fans.de/assets/91ae146b-e07a-4fe8-8e3a-934f50d2feaa"
+    },
+    {
+      "name": "Emanuell",
+      "file": "2023-vip/emanuell.webp",
+      "url": "https://directus.ayto-fans.de/assets/2c0cf258-3f54-4315-890e-24ca3a8bd466"
+    },
+    {
+      "name": "Fabio",
+      "file": "2023-vip/fabio.webp",
+      "url": "https://directus.ayto-fans.de/assets/f2a25bdf-01d3-4875-b6fc-a7e54d653f37"
+    },
+    {
+      "name": "Jenny",
+      "file": "2023-vip/jenny.webp",
+      "url": "https://directus.ayto-fans.de/assets/3e0b46e8-fc94-40c7-adb0-db77eac18347"
+    },
+    {
+      "name": "Kim-Virginia",
+      "file": "2023-vip/kim-virginia.webp",
+      "url": "https://directus.ayto-fans.de/assets/06dbb41a-c216-4e97-a9ec-08ad005ccc2f"
+    },
+    {
+      "name": "Marie",
+      "file": "2023-vip/marie.webp",
+      "url": "https://directus.ayto-fans.de/assets/c2b60dcf-8d1a-4961-a777-6f1771f60985"
+    },
+    {
+      "name": "Marvin",
+      "file": "2023-vip/marvin.webp",
+      "url": "https://directus.ayto-fans.de/assets/55aba190-31c8-4f7a-a89b-3a5899258468"
+    },
+    {
+      "name": "Max",
+      "file": "2023-vip/max.webp",
+      "url": "https://directus.ayto-fans.de/assets/6c8d8aec-cb38-476e-87d7-4955df974364"
+    },
+    {
+      "name": "Mike",
+      "file": "2023-vip/mike.webp",
+      "url": "https://directus.ayto-fans.de/assets/b46313be-ef5b-4d9f-9396-06945b4932db"
+    },
+    {
+      "name": "Paco",
+      "file": "2023-vip/paco.webp",
+      "url": "https://directus.ayto-fans.de/assets/266e1ca9-c7c4-472b-a10f-9d6994f6fd55"
+    },
+    {
+      "name": "Paulia",
+      "file": "2023-vip/paulia.webp",
+      "url": "https://directus.ayto-fans.de/assets/5e17811f-c16f-4d4a-aef1-525ec624ba4c"
+    },
+    {
+      "name": "Peter",
+      "file": "2023-vip/peter.webp",
+      "url": "https://directus.ayto-fans.de/assets/6a76ccf8-c7ab-4073-a356-ef126ebc08e4"
+    },
+    {
+      "name": "Sabrina",
+      "file": "2023-vip/sabrina.webp",
+      "url": "https://directus.ayto-fans.de/assets/327c0e2d-6e69-4596-8d4c-f328b341ee5a"
+    },
+    {
+      "name": "Sandra",
+      "file": "2023-vip/sandra.webp",
+      "url": "https://directus.ayto-fans.de/assets/a35d626d-a2ec-4df0-bb88-4bbdac7d6878"
+    },
+    {
+      "name": "Stefanie",
+      "file": "2023-vip/stefanie.webp",
+      "url": "https://directus.ayto-fans.de/assets/b7ff251c-a348-42d3-aae2-91de2765261c"
+    },
+    {
+      "name": "Steffen",
+      "file": "2023-vip/steffen.webp",
+      "url": "https://directus.ayto-fans.de/assets/41bff8f1-ca41-43c8-81bd-9fd695f873a0"
+    },
+    {
+      "name": "Teezy",
+      "file": "2023-vip/teezy.webp",
+      "url": "https://directus.ayto-fans.de/assets/2867f50b-13f6-460f-ab0d-d60329ed1a4b"
+    }
+  ],
+  "matchboxes_found": 9,
+  "matching_nights_found": 10,
+  "matchboxes": [
+    {
+      "number": 9,
+      "pair": [
+        "Alicia",
+        "Elia"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 6,
+      "pair": [
+        "Alicia",
+        "Teezy"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 5,
+      "pair": [
+        "Darya",
+        "Danielo"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 3,
+      "pair": [
+        "Darya",
+        "Elia"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 1,
+      "pair": [
+        "Jenny",
+        "Danielo"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 2,
+      "pair": [
+        "Jenny",
+        "Elia"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 4,
+      "pair": [
+        "Kim-Virginia",
+        "Mike"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 7,
+      "pair": [
+        "Sabrina",
+        "Max"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 8,
+      "pair": [
+        "Stefanie",
+        "Emanuell"
+      ],
+      "result": "unknown"
+    }
+  ],
+  "matching_nights": [
+    {
+      "number": 1,
+      "pairs": [
+        [
+          "Alicia",
+          "Peter"
+        ],
+        [
+          "Christina-Shakira",
+          "Marvin"
+        ],
+        [
+          "Darya",
+          "Danielo"
+        ],
+        [
+          "Jenny",
+          "Elia"
+        ],
+        [
+          "Kim-Virginia",
+          "Mike"
+        ],
+        [
+          "Marie",
+          "Fabio"
+        ],
+        [
+          "Paulia",
+          "Steffen"
+        ],
+        [
+          "Sabrina",
+          "Emanuell"
+        ],
+        [
+          "Sandra",
+          "Paco"
+        ],
+        [
+          "Stefanie",
+          "Teezy"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2023-vip/matchnight/1/"
+    },
+    {
+      "number": 2,
+      "pairs": [
+        [
+          "Alicia",
+          "Steffen"
+        ],
+        [
+          "Christina-Shakira",
+          "Peter"
+        ],
+        [
+          "Darya",
+          "Emanuell"
+        ],
+        [
+          "Jenny",
+          "Marvin"
+        ],
+        [
+          "Kim-Virginia",
+          "Paco"
+        ],
+        [
+          "Marie",
+          "Fabio"
+        ],
+        [
+          "Paulia",
+          "Danielo"
+        ],
+        [
+          "Sabrina",
+          "Mike"
+        ],
+        [
+          "Sandra",
+          "Elia"
+        ],
+        [
+          "Stefanie",
+          "Teezy"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2023-vip/matchnight/2/"
+    },
+    {
+      "number": 3,
+      "pairs": [
+        [
+          "Alicia",
+          "Steffen"
+        ],
+        [
+          "Christina-Shakira",
+          "Fabio"
+        ],
+        [
+          "Darya",
+          "Danielo"
+        ],
+        [
+          "Jenny",
+          "Emanuell"
+        ],
+        [
+          "Kim-Virginia",
+          "Teezy"
+        ],
+        [
+          "Marie",
+          "Elia"
+        ],
+        [
+          "Paulia",
+          "Mike"
+        ],
+        [
+          "Sabrina",
+          "Peter"
+        ],
+        [
+          "Sandra",
+          "Paco"
+        ],
+        [
+          "Stefanie",
+          "Marvin"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2023-vip/matchnight/3/"
+    },
+    {
+      "number": 4,
+      "pairs": [
+        [
+          "Alicia",
+          "Teezy"
+        ],
+        [
+          "Christina-Shakira",
+          "Fabio"
+        ],
+        [
+          "Darya",
+          "Danielo"
+        ],
+        [
+          "Jenny",
+          "Marvin"
+        ],
+        [
+          "Kim-Virginia",
+          "Peter"
+        ],
+        [
+          "Marie",
+          "Elia"
+        ],
+        [
+          "Paulia",
+          "Max"
+        ],
+        [
+          "Sabrina",
+          "Paco"
+        ],
+        [
+          "Sandra",
+          "Steffen"
+        ],
+        [
+          "Stefanie",
+          "Emanuell"
+        ]
+      ],
+      "singles": [
+        "Mike"
+      ],
+      "url": "https://ayto-fans.de/2023-vip/matchnight/4/"
+    },
+    {
+      "number": 5,
+      "pairs": [
+        [
+          "Alicia",
+          "Steffen"
+        ],
+        [
+          "Christina-Shakira",
+          "Paco"
+        ],
+        [
+          "Darya",
+          "Danielo"
+        ],
+        [
+          "Jenny",
+          "Marvin"
+        ],
+        [
+          "Kim-Virginia",
+          "Teezy"
+        ],
+        [
+          "Marie",
+          "Fabio"
+        ],
+        [
+          "Paulia",
+          "Mike"
+        ],
+        [
+          "Sabrina",
+          "Emanuell"
+        ],
+        [
+          "Sandra",
+          "Max"
+        ],
+        [
+          "Stefanie",
+          "Elia"
+        ]
+      ],
+      "singles": [
+        "Peter"
+      ],
+      "url": "https://ayto-fans.de/2023-vip/matchnight/5/"
+    },
+    {
+      "number": 6,
+      "pairs": [
+        [
+          "Alicia",
+          "Paco"
+        ],
+        [
+          "Christina-Shakira",
+          "Fabio"
+        ],
+        [
+          "Darya",
+          "Danielo"
+        ],
+        [
+          "Jenny",
+          "Marvin"
+        ],
+        [
+          "Kim-Virginia",
+          "Teezy"
+        ],
+        [
+          "Marie",
+          "Elia"
+        ],
+        [
+          "Paulia",
+          "Mike"
+        ],
+        [
+          "Sabrina",
+          "Peter"
+        ],
+        [
+          "Sandra",
+          "Steffen"
+        ],
+        [
+          "Stefanie",
+          "Emanuell"
+        ]
+      ],
+      "singles": [
+        "Max"
+      ],
+      "url": "https://ayto-fans.de/2023-vip/matchnight/6/"
+    },
+    {
+      "number": 7,
+      "pairs": [
+        [
+          "Alicia",
+          "Fabio"
+        ],
+        [
+          "Christina-Shakira",
+          "Max"
+        ],
+        [
+          "Darya",
+          "Danielo"
+        ],
+        [
+          "Jenny",
+          "Paco"
+        ],
+        [
+          "Kim-Virginia",
+          "Teezy"
+        ],
+        [
+          "Marie",
+          "Steffen"
+        ],
+        [
+          "Paulia",
+          "Marvin"
+        ],
+        [
+          "Sabrina",
+          "Emanuell"
+        ],
+        [
+          "Sandra",
+          "Mike"
+        ],
+        [
+          "Stefanie",
+          "Elia"
+        ]
+      ],
+      "singles": [
+        "Peter"
+      ],
+      "url": "https://ayto-fans.de/2023-vip/matchnight/7/"
+    },
+    {
+      "number": 8,
+      "pairs": [
+        [
+          "Alicia",
+          "Paco"
+        ],
+        [
+          "Christina-Shakira",
+          "Steffen"
+        ],
+        [
+          "Darya",
+          "Danielo"
+        ],
+        [
+          "Jenny",
+          "Marvin"
+        ],
+        [
+          "Kim-Virginia",
+          "Max"
+        ],
+        [
+          "Marie",
+          "Elia"
+        ],
+        [
+          "Paulia",
+          "Teezy"
+        ],
+        [
+          "Sabrina",
+          "Emanuell"
+        ],
+        [
+          "Sandra",
+          "Fabio"
+        ],
+        [
+          "Stefanie",
+          "Mike"
+        ]
+      ],
+      "singles": [
+        "Peter"
+      ],
+      "url": "https://ayto-fans.de/2023-vip/matchnight/8/"
+    },
+    {
+      "number": 9,
+      "pairs": [
+        [
+          "Alicia",
+          "Steffen"
+        ],
+        [
+          "Christina-Shakira",
+          "Marvin"
+        ],
+        [
+          "Darya",
+          "Danielo"
+        ],
+        [
+          "Jenny",
+          "Max"
+        ],
+        [
+          "Kim-Virginia",
+          "Teezy"
+        ],
+        [
+          "Marie",
+          "Fabio"
+        ],
+        [
+          "Paulia",
+          "Paco"
+        ],
+        [
+          "Sabrina",
+          "Mike"
+        ],
+        [
+          "Sandra",
+          "Elia"
+        ],
+        [
+          "Stefanie",
+          "Emanuell"
+        ]
+      ],
+      "singles": [
+        "Peter"
+      ],
+      "url": "https://ayto-fans.de/2023-vip/matchnight/9/"
+    },
+    {
+      "number": 10,
+      "pairs": [
+        [
+          "Alicia",
+          "Elia"
+        ],
+        [
+          "Christina-Shakira",
+          "Marvin"
+        ],
+        [
+          "Darya",
+          "Danielo"
+        ],
+        [
+          "Jenny",
+          "Paco"
+        ],
+        [
+          "Kim-Virginia",
+          "Teezy"
+        ],
+        [
+          "Marie",
+          "Fabio"
+        ],
+        [
+          "Paulia",
+          "Max"
+        ],
+        [
+          "Sabrina",
+          "Mike"
+        ],
+        [
+          "Sandra",
+          "Steffen"
+        ],
+        [
+          "Stefanie",
+          "Emanuell"
+        ]
+      ],
+      "singles": [
+        "Peter"
+      ],
+      "url": "https://ayto-fans.de/2023-vip/matchnight/10/"
+    }
+  ],
+  "failures": [],
+  "warnings": []
+}

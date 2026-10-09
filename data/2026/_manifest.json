@@ -1,0 +1,689 @@
+{
+  "season": "2026",
+  "page_url": "https://ayto-fans.de/2026/",
+  "candidate_names_found": 21,
+  "candidate_image_urls_found": 21,
+  "downloaded": [
+    {
+      "name": "Adrianna",
+      "file": "2026/adrianna.webp",
+      "url": "https://directus.ayto-fans.de/assets/327d9339-4d7a-4643-af7b-91d662cdccaf"
+    },
+    {
+      "name": "Alicia",
+      "file": "2026/alicia.webp",
+      "url": "https://directus.ayto-fans.de/assets/8f9fd53f-e9eb-432e-91ce-ff5489253af7"
+    },
+    {
+      "name": "Aurora",
+      "file": "2026/aurora.webp",
+      "url": "https://directus.ayto-fans.de/assets/7111b4e2-87f9-4995-8c79-2228bd6df2fa"
+    },
+    {
+      "name": "Chris",
+      "file": "2026/chris.webp",
+      "url": "https://directus.ayto-fans.de/assets/1704a6fa-ecf4-4b88-94d2-a798af447857"
+    },
+    {
+      "name": "Elena",
+      "file": "2026/elena.webp",
+      "url": "https://directus.ayto-fans.de/assets/2011c218-4078-45cc-8ad5-74ceadfbd9dd"
+    },
+    {
+      "name": "Ella",
+      "file": "2026/ella.webp",
+      "url": "https://directus.ayto-fans.de/assets/87d9319a-82f7-4c72-b799-7c5bafed5048"
+    },
+    {
+      "name": "Ema",
+      "file": "2026/ema.webp",
+      "url": "https://directus.ayto-fans.de/assets/7d7131a1-f375-4e37-bec8-397d4d14c02d"
+    },
+    {
+      "name": "Evi",
+      "file": "2026/evi.webp",
+      "url": "https://directus.ayto-fans.de/assets/e48439d3-c318-4e16-b7a0-e137e5aaa436"
+    },
+    {
+      "name": "Jeronymo",
+      "file": "2026/jeronymo.webp",
+      "url": "https://directus.ayto-fans.de/assets/bfac9cd7-1e06-40fb-9222-a6543fbc6ffc"
+    },
+    {
+      "name": "Jerry",
+      "file": "2026/jerry.webp",
+      "url": "https://directus.ayto-fans.de/assets/f51a4f83-6b90-4826-8e69-e18275b7062c"
+    },
+    {
+      "name": "Julian M",
+      "file": "2026/julian-m.webp",
+      "url": "https://directus.ayto-fans.de/assets/253ecef6-441b-4b4b-ab60-7723c16a912a"
+    },
+    {
+      "name": "Julian S",
+      "file": "2026/julian-s.webp",
+      "url": "https://directus.ayto-fans.de/assets/273c0758-6491-4a3a-859a-9baf2d8f6846"
+    },
+    {
+      "name": "Laura",
+      "file": "2026/laura.webp",
+      "url": "https://directus.ayto-fans.de/assets/5c63feb7-d26c-4ef1-acea-bdedd9cf8938"
+    },
+    {
+      "name": "Linda",
+      "file": "2026/linda.webp",
+      "url": "https://directus.ayto-fans.de/assets/7408a759-a461-49a2-a186-b20a067725fe"
+    },
+    {
+      "name": "Luke",
+      "file": "2026/luke.webp",
+      "url": "https://directus.ayto-fans.de/assets/3322744a-570a-4928-9087-db1a1ebd1825"
+    },
+    {
+      "name": "Marla",
+      "file": "2026/marla.webp",
+      "url": "https://directus.ayto-fans.de/assets/8a02d248-0fce-4d3c-92f1-753d62895b54"
+    },
+    {
+      "name": "Meji",
+      "file": "2026/meji.webp",
+      "url": "https://directus.ayto-fans.de/assets/326f559c-ccdd-48eb-8a0f-e621e69ca380"
+    },
+    {
+      "name": "Michelle",
+      "file": "2026/michelle.webp",
+      "url": "https://directus.ayto-fans.de/assets/f33ba878-505d-4944-b72a-3e610de57018"
+    },
+    {
+      "name": "Noel",
+      "file": "2026/noel.webp",
+      "url": "https://directus.ayto-fans.de/assets/866afaa4-ca00-413c-9624-cef00f9e2676"
+    },
+    {
+      "name": "Tiziana",
+      "file": "2026/tiziana.webp",
+      "url": "https://directus.ayto-fans.de/assets/17a75cab-98bf-48b0-bea1-27f52603b12a"
+    },
+    {
+      "name": "Tonia",
+      "file": "2026/tonia.webp",
+      "url": "https://directus.ayto-fans.de/assets/5bf57c85-cdb8-4600-9d34-4f0f85924649"
+    }
+  ],
+  "matchboxes_found": 10,
+  "matching_nights_found": 10,
+  "matchboxes": [
+    {
+      "number": 5,
+      "pair": [
+        "Aurora",
+        "Chris"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 6,
+      "pair": [
+        "Elena",
+        "Jerry"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 9,
+      "pair": [
+        "Ella",
+        "Meji"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 2,
+      "pair": [
+        "Laura",
+        "Evi"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 3,
+      "pair": [
+        "Linda",
+        "Julian S"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 4,
+      "pair": [
+        "Marla",
+        "Julian M"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 8,
+      "pair": [
+        "Michelle",
+        "Ema"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 1,
+      "pair": [
+        "Tiziana",
+        "Evi"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 10,
+      "pair": [
+        "Tiziana",
+        "Jeronymo"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 7,
+      "pair": [
+        "Tonia",
+        "Noel"
+      ],
+      "result": "unknown"
+    }
+  ],
+  "matching_nights": [
+    {
+      "number": 1,
+      "pairs": [
+        [
+          "Adrianna",
+          "Julian M"
+        ],
+        [
+          "Aurora",
+          "Julian S"
+        ],
+        [
+          "Elena",
+          "Jerry"
+        ],
+        [
+          "Ella",
+          "Meji"
+        ],
+        [
+          "Laura",
+          "Evi"
+        ],
+        [
+          "Linda",
+          "Chris"
+        ],
+        [
+          "Marla",
+          "Luke"
+        ],
+        [
+          "Michelle",
+          "Ema"
+        ],
+        [
+          "Tiziana",
+          "Jeronymo"
+        ],
+        [
+          "Tonia",
+          "Noel"
+        ]
+      ],
+      "singles": [
+        "Alicia"
+      ],
+      "url": "https://ayto-fans.de/2026/matchnight/1/"
+    },
+    {
+      "number": 2,
+      "pairs": [
+        [
+          "Adrianna",
+          "Julian S"
+        ],
+        [
+          "Alicia",
+          "Julian M"
+        ],
+        [
+          "Elena",
+          "Meji"
+        ],
+        [
+          "Ella",
+          "Ema"
+        ],
+        [
+          "Laura",
+          "Evi"
+        ],
+        [
+          "Linda",
+          "Noel"
+        ],
+        [
+          "Marla",
+          "Luke"
+        ],
+        [
+          "Michelle",
+          "Jerry"
+        ],
+        [
+          "Tiziana",
+          "Jeronymo"
+        ],
+        [
+          "Tonia",
+          "Chris"
+        ]
+      ],
+      "singles": [
+        "Aurora"
+      ],
+      "url": "https://ayto-fans.de/2026/matchnight/2/"
+    },
+    {
+      "number": 3,
+      "pairs": [
+        [
+          "Adrianna",
+          "Julian M"
+        ],
+        [
+          "Alicia",
+          "Julian S"
+        ],
+        [
+          "Aurora",
+          "Jerry"
+        ],
+        [
+          "Elena",
+          "Meji"
+        ],
+        [
+          "Laura",
+          "Evi"
+        ],
+        [
+          "Linda",
+          "Chris"
+        ],
+        [
+          "Marla",
+          "Luke"
+        ],
+        [
+          "Michelle",
+          "Ema"
+        ],
+        [
+          "Tiziana",
+          "Jeronymo"
+        ],
+        [
+          "Tonia",
+          "Noel"
+        ]
+      ],
+      "singles": [
+        "Ella"
+      ],
+      "url": "https://ayto-fans.de/2026/matchnight/3/"
+    },
+    {
+      "number": 4,
+      "pairs": [
+        [
+          "Adrianna",
+          "Noel"
+        ],
+        [
+          "Alicia",
+          "Julian S"
+        ],
+        [
+          "Aurora",
+          "Chris"
+        ],
+        [
+          "Elena",
+          "Jerry"
+        ],
+        [
+          "Ella",
+          "Evi"
+        ],
+        [
+          "Laura",
+          "Meji"
+        ],
+        [
+          "Linda",
+          "Jeronymo"
+        ],
+        [
+          "Marla",
+          "Julian M"
+        ],
+        [
+          "Michelle",
+          "Ema"
+        ],
+        [
+          "Tonia",
+          "Luke"
+        ]
+      ],
+      "singles": [
+        "Tiziana"
+      ],
+      "url": "https://ayto-fans.de/2026/matchnight/4/"
+    },
+    {
+      "number": 5,
+      "pairs": [
+        [
+          "Adrianna",
+          "Julian S"
+        ],
+        [
+          "Aurora",
+          "Evi"
+        ],
+        [
+          "Elena",
+          "Jerry"
+        ],
+        [
+          "Ella",
+          "Meji"
+        ],
+        [
+          "Laura",
+          "Luke"
+        ],
+        [
+          "Linda",
+          "Chris"
+        ],
+        [
+          "Marla",
+          "Julian M"
+        ],
+        [
+          "Michelle",
+          "Ema"
+        ],
+        [
+          "Tiziana",
+          "Jeronymo"
+        ],
+        [
+          "Tonia",
+          "Noel"
+        ]
+      ],
+      "singles": [
+        "Alicia"
+      ],
+      "url": "https://ayto-fans.de/2026/matchnight/5/"
+    },
+    {
+      "number": 6,
+      "pairs": [
+        [
+          "Adrianna",
+          "Luke"
+        ],
+        [
+          "Aurora",
+          "Meji"
+        ],
+        [
+          "Elena",
+          "Jerry"
+        ],
+        [
+          "Ella",
+          "Chris"
+        ],
+        [
+          "Laura",
+          "Jeronymo"
+        ],
+        [
+          "Linda",
+          "Evi"
+        ],
+        [
+          "Marla",
+          "Julian M"
+        ],
+        [
+          "Michelle",
+          "Ema"
+        ],
+        [
+          "Tiziana",
+          "Julian S"
+        ],
+        [
+          "Tonia",
+          "Noel"
+        ]
+      ],
+      "singles": [
+        "Alicia"
+      ],
+      "url": "https://ayto-fans.de/2026/matchnight/6/"
+    },
+    {
+      "number": 7,
+      "pairs": [
+        [
+          "Adrianna",
+          "Julian S"
+        ],
+        [
+          "Aurora",
+          "Evi"
+        ],
+        [
+          "Elena",
+          "Luke"
+        ],
+        [
+          "Ella",
+          "Meji"
+        ],
+        [
+          "Laura",
+          "Jerry"
+        ],
+        [
+          "Linda",
+          "Chris"
+        ],
+        [
+          "Marla",
+          "Julian M"
+        ],
+        [
+          "Michelle",
+          "Ema"
+        ],
+        [
+          "Tiziana",
+          "Jeronymo"
+        ],
+        [
+          "Tonia",
+          "Noel"
+        ]
+      ],
+      "singles": [
+        "Alicia"
+      ],
+      "url": "https://ayto-fans.de/2026/matchnight/7/"
+    },
+    {
+      "number": 8,
+      "pairs": [
+        [
+          "Adrianna",
+          "Julian S"
+        ],
+        [
+          "Aurora",
+          "Ema"
+        ],
+        [
+          "Elena",
+          "Jerry"
+        ],
+        [
+          "Ella",
+          "Meji"
+        ],
+        [
+          "Laura",
+          "Luke"
+        ],
+        [
+          "Linda",
+          "Chris"
+        ],
+        [
+          "Marla",
+          "Julian M"
+        ],
+        [
+          "Michelle",
+          "Evi"
+        ],
+        [
+          "Tiziana",
+          "Jeronymo"
+        ],
+        [
+          "Tonia",
+          "Noel"
+        ]
+      ],
+      "singles": [
+        "Alicia"
+      ],
+      "url": "https://ayto-fans.de/2026/matchnight/8/"
+    },
+    {
+      "number": 9,
+      "pairs": [
+        [
+          "Adrianna",
+          "Luke"
+        ],
+        [
+          "Aurora",
+          "Evi"
+        ],
+        [
+          "Elena",
+          "Jerry"
+        ],
+        [
+          "Ella",
+          "Meji"
+        ],
+        [
+          "Laura",
+          "Julian S"
+        ],
+        [
+          "Linda",
+          "Ema"
+        ],
+        [
+          "Marla",
+          "Julian M"
+        ],
+        [
+          "Michelle",
+          "Jeronymo"
+        ],
+        [
+          "Tiziana",
+          "Chris"
+        ],
+        [
+          "Tonia",
+          "Noel"
+        ]
+      ],
+      "singles": [
+        "Alicia"
+      ],
+      "url": "https://ayto-fans.de/2026/matchnight/9/"
+    },
+    {
+      "number": 10,
+      "pairs": [
+        [
+          "Adrianna",
+          "Evi"
+        ],
+        [
+          "Aurora",
+          "Jerry"
+        ],
+        [
+          "Elena",
+          "Ema"
+        ],
+        [
+          "Ella",
+          "Meji"
+        ],
+        [
+          "Laura",
+          "Chris"
+        ],
+        [
+          "Linda",
+          "Luke"
+        ],
+        [
+          "Marla",
+          "Julian M"
+        ],
+        [
+          "Michelle",
+          "Julian S"
+        ],
+        [
+          "Tiziana",
+          "Jeronymo"
+        ],
+        [
+          "Tonia",
+          "Noel"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/2026/matchnight/10/"
+    }
+  ],
+  "failures": [],
+  "warnings": []
+}

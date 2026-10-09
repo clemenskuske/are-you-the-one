@@ -1,0 +1,11 @@
+Matchbox #10: Afra x Sandro -> false
+Matchbox #01: Jana x Paul -> false
+Matchbox #08: Julia x Paul -> false
+Matchbox #02: Lina x Ryan -> false
+Matchbox #09: Maja x Eti -> sold 20000
+Matchbox #03: Maja x Kevin -> false
+Matchbox #04: Mela x Eti -> false
+Matchbox #05: Shelly x Wilson -> true
+Matchbox #07: Sina x Sandro -> false
+Matchbox #06: Tais x Gerrit -> true
+Matchbox #11: Lina x Kevin -> true

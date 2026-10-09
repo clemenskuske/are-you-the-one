@@ -1,0 +1,10 @@
+Matchbox #05: Aurora x Chris -> false
+Matchbox #06: Elena x Jerry -> sold 20000
+Matchbox #09: Ella x Meji -> sold 20000
+Matchbox #02: Laura x Evi -> sold 5000
+Matchbox #03: Linda x Julian S -> false
+Matchbox #04: Marla x Julian M -> true
+Matchbox #08: Michelle x Ema -> false
+Matchbox #01: Tiziana x Evi -> false
+Matchbox #10: Tiziana x Jeronymo -> true
+Matchbox #07: Tonia x Noel -> true

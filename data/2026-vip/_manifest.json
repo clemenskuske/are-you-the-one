@@ -1,0 +1,547 @@
+{
+  "season": "2026-vip",
+  "page_url": "https://ayto-fans.de/",
+  "candidate_names_found": 22,
+  "candidate_image_urls_found": 22,
+  "downloaded": [
+    {
+      "name": "Alexandra",
+      "file": "2026-vip/alexandra.webp",
+      "url": "https://directus.ayto-fans.de/assets/bff95df9-f1e4-488f-a735-be214456f1ea"
+    },
+    {
+      "name": "Bennett",
+      "file": "2026-vip/bennett.webp",
+      "url": "https://directus.ayto-fans.de/assets/972f122c-71b4-4ed4-9cf3-1555e99d802d"
+    },
+    {
+      "name": "Brian",
+      "file": "2026-vip/brian.webp",
+      "url": "https://directus.ayto-fans.de/assets/34b4be64-926d-440f-bf5f-b731c220c27b"
+    },
+    {
+      "name": "Cansin",
+      "file": "2026-vip/cansin.webp",
+      "url": "https://directus.ayto-fans.de/assets/85d28dec-9af8-447c-a471-0b617dc0ef64"
+    },
+    {
+      "name": "Christin",
+      "file": "2026-vip/christin.webp",
+      "url": "https://directus.ayto-fans.de/assets/89c03836-9d2a-4a1d-9416-7695db36f597"
+    },
+    {
+      "name": "Daymian",
+      "file": "2026-vip/daymian.webp",
+      "url": "https://directus.ayto-fans.de/assets/f3a2ac0a-8239-4dcd-927f-6ecd383b6397"
+    },
+    {
+      "name": "Emma",
+      "file": "2026-vip/emma.webp",
+      "url": "https://directus.ayto-fans.de/assets/647daaee-80fb-42bd-b9f8-5cb75a653ad3"
+    },
+    {
+      "name": "Fabi",
+      "file": "2026-vip/fabi.webp",
+      "url": "https://directus.ayto-fans.de/assets/a0de2f08-c477-420d-9825-afa7768706fc"
+    },
+    {
+      "name": "Francesca",
+      "file": "2026-vip/francesca.webp",
+      "url": "https://directus.ayto-fans.de/assets/cf69a098-5f19-4f56-8039-f35941526aca"
+    },
+    {
+      "name": "Germain",
+      "file": "2026-vip/germain.webp",
+      "url": "https://directus.ayto-fans.de/assets/33126c7d-3f1c-4692-b0eb-86bdb1bcaaee"
+    },
+    {
+      "name": "Janice",
+      "file": "2026-vip/janice.webp",
+      "url": "https://directus.ayto-fans.de/assets/11b85dcd-3fd3-48cc-ae87-35555f195723"
+    },
+    {
+      "name": "Jenny",
+      "file": "2026-vip/jenny.webp",
+      "url": "https://directus.ayto-fans.de/assets/5e9bd31e-864b-46ec-bcc8-936982b2daf0"
+    },
+    {
+      "name": "Joena",
+      "file": "2026-vip/joena.webp",
+      "url": "https://directus.ayto-fans.de/assets/91db4878-b87e-4a05-bea0-15607205ef80"
+    },
+    {
+      "name": "Johannes",
+      "file": "2026-vip/johannes.webp",
+      "url": "https://directus.ayto-fans.de/assets/bff8db29-3feb-4592-bd0f-9fb00c19aa56"
+    },
+    {
+      "name": "Julia",
+      "file": "2026-vip/julia.webp",
+      "url": "https://directus.ayto-fans.de/assets/d2ddc735-bf25-41e6-b688-b3039f0dab95"
+    },
+    {
+      "name": "Laurenz",
+      "file": "2026-vip/laurenz.webp",
+      "url": "https://directus.ayto-fans.de/assets/d8a9f8d1-2b35-4792-a200-d0703e2cf314"
+    },
+    {
+      "name": "Marta",
+      "file": "2026-vip/marta.webp",
+      "url": "https://directus.ayto-fans.de/assets/f8d3f518-f369-460a-af94-e9c33a33ac08"
+    },
+    {
+      "name": "Marwin",
+      "file": "2026-vip/marwin.webp",
+      "url": "https://directus.ayto-fans.de/assets/e2d551f5-ad3b-4511-be2f-b86e7e08d299"
+    },
+    {
+      "name": "Michelle",
+      "file": "2026-vip/michelle.webp",
+      "url": "https://directus.ayto-fans.de/assets/9ba96bfd-1d4d-4dbf-b96a-b3f24ec37dca"
+    },
+    {
+      "name": "Raúl",
+      "file": "2026-vip/raul.webp",
+      "url": "https://directus.ayto-fans.de/assets/47243c36-e2b6-4e0f-a406-dca7b931da49"
+    },
+    {
+      "name": "Robin",
+      "file": "2026-vip/robin.webp",
+      "url": "https://directus.ayto-fans.de/assets/b92f0c46-e8a5-46ff-a09d-77f823f1fdf0"
+    },
+    {
+      "name": "Zoe",
+      "file": "2026-vip/zoe.webp",
+      "url": "https://directus.ayto-fans.de/assets/0b12bdbd-f153-4634-9239-03a58356737e"
+    }
+  ],
+  "matchboxes_found": 8,
+  "matching_nights_found": 7,
+  "matchboxes": [
+    {
+      "number": 1,
+      "pair": [
+        "Christin",
+        "Marwin"
+      ],
+      "result": false,
+      "before_matching_night": 1
+    },
+    {
+      "number": 2,
+      "pair": [
+        "Marta",
+        "Robin"
+      ],
+      "result": false,
+      "before_matching_night": 1
+    },
+    {
+      "number": 3,
+      "pair": [
+        "Julia",
+        "Daymian"
+      ],
+      "result": false,
+      "before_matching_night": 2
+    },
+    {
+      "number": 4,
+      "pair": [
+        "Marta",
+        "Johannes"
+      ],
+      "result": true,
+      "before_matching_night": 3
+    },
+    {
+      "number": 5,
+      "pair": [
+        "Julia",
+        "Bennett"
+      ],
+      "result": false,
+      "before_matching_night": 4
+    },
+    {
+      "number": 6,
+      "pair": [
+        "Emma",
+        "Laurenz"
+      ],
+      "result": "sold",
+      "sold_price": 10000,
+      "before_matching_night": 5
+    },
+    {
+      "number": 7,
+      "pair": [
+        "Michelle",
+        "Raúl"
+      ],
+      "result": false,
+      "before_matching_night": 6
+    },
+    {
+      "number": 8,
+      "pair": [
+        "Jenny",
+        "Daymian"
+      ],
+      "result": true,
+      "before_matching_night": 7
+    }
+  ],
+  "matching_nights": [
+    {
+      "number": 1,
+      "matches": 3,
+      "pairs": [
+        [
+          "Jenny",
+          "Robin"
+        ],
+        [
+          "Marta",
+          "Johannes"
+        ],
+        [
+          "Christin",
+          "Brian"
+        ],
+        [
+          "Michelle",
+          "Marwin"
+        ],
+        [
+          "Emma",
+          "Germain"
+        ],
+        [
+          "Alexandra",
+          "Raúl"
+        ],
+        [
+          "Janice",
+          "Fabi"
+        ],
+        [
+          "Julia",
+          "Daymian"
+        ],
+        [
+          "Zoe",
+          "Cansin"
+        ],
+        [
+          "Francesca",
+          "Bennett"
+        ]
+      ],
+      "singles": [
+        "Joena"
+      ],
+      "url": "https://ayto-fans.de/matchnight/1"
+    },
+    {
+      "number": 2,
+      "matches": 3,
+      "pairs": [
+        [
+          "Emma",
+          "Germain"
+        ],
+        [
+          "Alexandra",
+          "Brian"
+        ],
+        [
+          "Julia",
+          "Fabi"
+        ],
+        [
+          "Joena",
+          "Bennett"
+        ],
+        [
+          "Christin",
+          "Robin"
+        ],
+        [
+          "Jenny",
+          "Daymian"
+        ],
+        [
+          "Michelle",
+          "Marwin"
+        ],
+        [
+          "Marta",
+          "Raúl"
+        ],
+        [
+          "Janice",
+          "Johannes"
+        ],
+        [
+          "Zoe",
+          "Cansin"
+        ]
+      ],
+      "singles": [
+        "Francesca"
+      ],
+      "url": "https://ayto-fans.de/matchnight/2"
+    },
+    {
+      "number": 3,
+      "matches": 3,
+      "pairs": [
+        [
+          "Michelle",
+          "Raúl"
+        ],
+        [
+          "Christin",
+          "Robin"
+        ],
+        [
+          "Alexandra",
+          "Germain"
+        ],
+        [
+          "Emma",
+          "Fabi"
+        ],
+        [
+          "Jenny",
+          "Cansin"
+        ],
+        [
+          "Julia",
+          "Bennett"
+        ],
+        [
+          "Zoe",
+          "Daymian"
+        ],
+        [
+          "Joena",
+          "Marwin"
+        ],
+        [
+          "Francesca",
+          "Brian"
+        ],
+        [
+          "Marta",
+          "Johannes"
+        ]
+      ],
+      "singles": [
+        "Janice"
+      ],
+      "url": "https://ayto-fans.de/matchnight/3"
+    },
+    {
+      "number": 4,
+      "matches": 4,
+      "pairs": [
+        [
+          "Zoe",
+          "Fabi"
+        ],
+        [
+          "Julia",
+          "Cansin"
+        ],
+        [
+          "Christin",
+          "Bennett"
+        ],
+        [
+          "Francesca",
+          "Raúl"
+        ],
+        [
+          "Joena",
+          "Robin"
+        ],
+        [
+          "Jenny",
+          "Daymian"
+        ],
+        [
+          "Emma",
+          "Marwin"
+        ],
+        [
+          "Michelle",
+          "Germain"
+        ],
+        [
+          "Alexandra",
+          "Brian"
+        ],
+        [
+          "Marta",
+          "Johannes"
+        ]
+      ],
+      "singles": [],
+      "url": "https://ayto-fans.de/matchnight/4"
+    },
+    {
+      "number": 5,
+      "matches": 3,
+      "pairs": [
+        [
+          "Zoe",
+          "Laurenz"
+        ],
+        [
+          "Alexandra",
+          "Brian"
+        ],
+        [
+          "Emma",
+          "Germain"
+        ],
+        [
+          "Francesca",
+          "Marwin"
+        ],
+        [
+          "Jenny",
+          "Daymian"
+        ],
+        [
+          "Joena",
+          "Robin"
+        ],
+        [
+          "Christin",
+          "Bennett"
+        ],
+        [
+          "Julia",
+          "Cansin"
+        ],
+        [
+          "Michelle",
+          "Raúl"
+        ],
+        [
+          "Marta",
+          "Johannes"
+        ]
+      ],
+      "singles": [
+        "Fabi"
+      ],
+      "url": "https://ayto-fans.de/matchnight/5"
+    },
+    {
+      "number": 6,
+      "matches": 5,
+      "pairs": [
+        [
+          "Alexandra",
+          "Brian"
+        ],
+        [
+          "Joena",
+          "Robin"
+        ],
+        [
+          "Jenny",
+          "Daymian"
+        ],
+        [
+          "Francesca",
+          "Marwin"
+        ],
+        [
+          "Zoe",
+          "Cansin"
+        ],
+        [
+          "Michelle",
+          "Fabi"
+        ],
+        [
+          "Emma",
+          "Laurenz"
+        ],
+        [
+          "Christin",
+          "Bennett"
+        ],
+        [
+          "Julia",
+          "Germain"
+        ],
+        [
+          "Marta",
+          "Johannes"
+        ]
+      ],
+      "singles": [
+        "Raúl"
+      ],
+      "url": "https://ayto-fans.de/matchnight/6"
+    },
+    {
+      "number": 7,
+      "matches": 5,
+      "pairs": [
+        [
+          "Emma",
+          "Laurenz"
+        ],
+        [
+          "Zoe",
+          "Brian"
+        ],
+        [
+          "Michelle",
+          "Fabi"
+        ],
+        [
+          "Joena",
+          "Robin"
+        ],
+        [
+          "Julia",
+          "Germain"
+        ],
+        [
+          "Christin",
+          "Bennett"
+        ],
+        [
+          "Francesca",
+          "Marwin"
+        ],
+        [
+          "Alexandra",
+          "Raúl"
+        ],
+        [
+          "Marta",
+          "Johannes"
+        ],
+        [
+          "Jenny",
+          "Daymian"
+        ]
+      ],
+      "singles": [
+        "Cansin"
+      ],
+      "url": "https://ayto-fans.de/matchnight/7"
+    }
+  ],
+  "failures": [],
+  "warnings": []
+}

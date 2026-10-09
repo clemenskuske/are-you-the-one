@@ -1,0 +1,10 @@
+Matchbox #01: Valeria x Marwin -> false
+Matchbox #02: D. x Kenneth -> false
+Matchbox #03: Carina x Burim -> false
+Matchbox #04: Stefanie x Cris -> true
+Matchbox #05: Valeria x Max -> false
+Matchbox #06: Caroline x Ken -> true
+Matchbox #07: D. x Burim -> false
+Matchbox #08: Juliette x Joel -> false
+Matchbox #09: D. x Marwin -> false
+Matchbox #10: D. x Pascal -> false

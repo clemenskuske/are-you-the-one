@@ -1,0 +1,115 @@
+Matchnight #01 — Matches: 2
+  - Anastasia x Marc-Robin
+  - Asena x Kaan
+  - Emmy x Chris
+  - Gabriela x Ozan
+  - Jennifer x Lukas
+  - Laura L. x Alex
+  - Laura M. x Antonino
+  - Linda x Tim
+  - Nadja x Lars
+  - Tara x Nikola
+
+Matchnight #02 — Matches: 3
+  - Anastasia x Lars
+  - Asena x Marc-Robin
+  - Dana x Antonino
+  - Emmy x Chris
+  - Jennifer x Alex
+  - Laura L. x Ozan
+  - Laura M. x Lukas
+  - Linda x Tim
+  - Nadja x Kaan
+  - Tara x Nikola
+  Geht leer aus: Gabriela
+
+Matchnight #03 — Matches: 3
+  - Anastasia x Alex
+  - Asena x Marc-Robin
+  - Dana x Tim
+  - Emmy x Chris
+  - Gabriela x Lars
+  - Jennifer x Kaan
+  - Laura L. x Nikola
+  - Laura M. x Ozan
+  - Linda x Lukas
+  - Nadja x Antonino
+  Geht leer aus: Tara
+
+Matchnight #04 — Matches: 1
+  - Anastasia x Nikola
+  - Asena x Kaan
+  - Emmy x Chris
+  - Gabriela x Lukas
+  - Jennifer x Alex
+  - Laura L. x Tim
+  - Laura M. x Ozan
+  - Linda x Marc-Robin
+  - Nadja x Antonino
+  - Tara x Lars
+  Geht leer aus: Dana
+
+Matchnight #05 — Matches: 5
+  - Anastasia x Marc-Robin
+  - Asena x Antonino
+  - Dana x Ozan
+  - Emmy x Chris
+  - Gabriela x Alex
+  - Jennifer x Lukas
+  - Laura L. x Nikola
+  - Linda x Tim
+  - Nadja x Lars
+  - Tara x Kaan
+  Geht leer aus: Laura M.
+
+Matchnight #06 — Matches: 6
+  - Anastasia x Ozan
+  - Asena x Antonino
+  - Dana x Lars
+  - Emmy x Chris
+  - Gabriela x Alex
+  - Jennifer x Lukas
+  - Laura M. x Marc-Robin
+  - Linda x Tim
+  - Nadja x Nikola
+  - Tara x Kaan
+  Geht leer aus: Laura L.
+
+Matchnight #07 — Matches: 6
+  - Anastasia x Ozan
+  - Asena x Antonino
+  - Dana x Lukas
+  - Emmy x Chris
+  - Gabriela x Alex
+  - Laura L. x Lars
+  - Laura M. x Marc-Robin
+  - Linda x Tim
+  - Nadja x Nikola
+  - Tara x Kaan
+  Geht leer aus: Jennifer
+
+Matchnight #08 — Matches: 7
+  - Anastasia x Ozan
+  - Asena x Antonino
+  - Emmy x Chris
+  - Gabriela x Alex
+  - Jennifer x Kaan
+  - Laura L. x Lars
+  - Laura M. x Marc-Robin
+  - Linda x Tim
+  - Nadja x Nikola
+  - Tara x Lukas
+  Geht leer aus: Dana
+
+Matchnight #09 — Matches: 10
+  - Anastasia x Ozan
+  - Asena x Antonino
+  - Emmy x Chris
+  - Gabriela x Alex
+  - Jennifer x Lars
+  - Laura L. x Nikola
+  - Laura M. x Marc-Robin
+  - Linda x Tim
+  - Nadja x Kaan
+  - Tara x Lukas
+  Geht leer aus: Dana

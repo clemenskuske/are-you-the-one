@@ -1,0 +1,9 @@
+Matchbox #03: Anastasia x Alex -> sold 20000
+Matchbox #06: Anastasia x Ozan -> true
+Matchbox #04: Asena x Marc-Robin -> false
+Matchbox #02: Emmy x Chris -> true
+Matchbox #07: Jennifer x Lukas -> false
+Matchbox #09: Laura L. x Lars -> false
+Matchbox #01: Laura L. x Marc-Robin -> false
+Matchbox #05: Laura M. x Nikola -> sold 20000
+Matchbox #08: Linda x Tim -> true

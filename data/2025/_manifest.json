@@ -1,0 +1,691 @@
+{
+  "season": "2025",
+  "page_url": "https://ayto-fans.de/2025/",
+  "candidate_names_found": 21,
+  "candidate_image_urls_found": 21,
+  "downloaded": [
+    {
+      "name": "Anna",
+      "file": "2025/anna.webp",
+      "url": "https://directus.ayto-fans.de/assets/65f5e7cf-2295-4143-b21c-ae3ec1625157"
+    },
+    {
+      "name": "Camelia",
+      "file": "2025/camelia.webp",
+      "url": "https://directus.ayto-fans.de/assets/d4b64900-1802-4d13-8471-c6c4f9e8361f"
+    },
+    {
+      "name": "Chiara",
+      "file": "2025/chiara.webp",
+      "url": "https://directus.ayto-fans.de/assets/c0351f08-5549-41ef-84a8-24e51c4cfc9a"
+    },
+    {
+      "name": "Danish",
+      "file": "2025/danish.webp",
+      "url": "https://directus.ayto-fans.de/assets/eaa24746-eb88-4f2a-b7af-2837c3a4f683"
+    },
+    {
+      "name": "Deisy",
+      "file": "2025/deisy.webp",
+      "url": "https://directus.ayto-fans.de/assets/f1dfad24-cfbc-48fd-9198-212118ca791c"
+    },
+    {
+      "name": "Dino",
+      "file": "2025/dino.webp",
+      "url": "https://directus.ayto-fans.de/assets/d4953590-222b-4acd-b7cf-3cd071bcbc17"
+    },
+    {
+      "name": "Dion",
+      "file": "2025/dion.webp",
+      "url": "https://directus.ayto-fans.de/assets/e35d8e85-be7d-4d56-88a3-045145ef0be8"
+    },
+    {
+      "name": "Enes",
+      "file": "2025/enes.webp",
+      "url": "https://directus.ayto-fans.de/assets/153f8c91-91cd-4df9-a05e-5cb1d2847591"
+    },
+    {
+      "name": "Ina",
+      "file": "2025/ina.webp",
+      "url": "https://directus.ayto-fans.de/assets/b8fb0399-971a-4947-a8d2-74d600b1875a"
+    },
+    {
+      "name": "Joanna",
+      "file": "2025/joanna.webp",
+      "url": "https://directus.ayto-fans.de/assets/171fdc37-4e2b-4673-85a5-e9fb1ff6675e"
+    },
+    {
+      "name": "Josh",
+      "file": "2025/josh.webp",
+      "url": "https://directus.ayto-fans.de/assets/e1749d2a-393d-4d30-a205-031c3bee36d6"
+    },
+    {
+      "name": "Joshua",
+      "file": "2025/joshua.webp",
+      "url": "https://directus.ayto-fans.de/assets/c95dd9f7-340d-43b1-9a95-feb043979532"
+    },
+    {
+      "name": "Kaan",
+      "file": "2025/kaan.webp",
+      "url": "https://directus.ayto-fans.de/assets/4393b80f-ab38-41d4-b020-66e3e3483ab5"
+    },
+    {
+      "name": "Levin",
+      "file": "2025/levin.webp",
+      "url": "https://directus.ayto-fans.de/assets/7065317b-7334-4f3d-93be-b524a985740c"
+    },
+    {
+      "name": "Nadja",
+      "file": "2025/nadja.webp",
+      "url": "https://directus.ayto-fans.de/assets/5ad35920-1d07-49c9-9943-0a1d09e1cf0c"
+    },
+    {
+      "name": "Nasti",
+      "file": "2025/nasti.webp",
+      "url": "https://directus.ayto-fans.de/assets/8c7592ba-96eb-469d-93b4-adbcfe64e686"
+    },
+    {
+      "name": "Selina",
+      "file": "2025/selina.webp",
+      "url": "https://directus.ayto-fans.de/assets/e1ac9fa4-779f-412c-ac6d-877fab6067bd"
+    },
+    {
+      "name": "Sinan",
+      "file": "2025/sinan.webp",
+      "url": "https://directus.ayto-fans.de/assets/261082bb-0db0-43d9-bc61-91ae2b1ead40"
+    },
+    {
+      "name": "Sophia",
+      "file": "2025/sophia.webp",
+      "url": "https://directus.ayto-fans.de/assets/a5ee66c6-b086-4e20-9897-e3d1c6a36b6c"
+    },
+    {
+      "name": "Tano",
+      "file": "2025/tano.webp",
+      "url": "https://directus.ayto-fans.de/assets/23f35833-dfba-4672-9ca8-8a869a4d800c"
+    },
+    {
+      "name": "Tori",
+      "file": "2025/tori.webp",
+      "url": "https://directus.ayto-fans.de/assets/bfef4ff7-f026-4e3f-86f2-a6d5cd76abdc"
+    }
+  ],
+  "matchboxes_found": 10,
+  "matching_nights_found": 10,
+  "matchboxes": [
+    {
+      "number": 1,
+      "pair": [
+        "Anna",
+        "Josh"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 10,
+      "pair": [
+        "Camelia",
+        "Josh"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 2,
+      "pair": [
+        "Camelia",
+        "Levin"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 5,
+      "pair": [
+        "Deisy",
+        "Dino"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 3,
+      "pair": [
+        "Ina",
+        "Sinan"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 8,
+      "pair": [
+        "Joanna",
+        "Joshua"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 4,
+      "pair": [
+        "Nadja",
+        "Danish"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 9,
+      "pair": [
+        "Nasti",
+        "Sinan"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 7,
+      "pair": [
+        "Sophia",
+        "Kaan"
+      ],
+      "result": "unknown"
+    },
+    {
+      "number": 6,
+      "pair": [
+        "Tori",
+        "Tano"
+      ],
+      "result": "unknown"
+    }
+  ],
+  "matching_nights": [
+    {
+      "number": 1,
+      "pairs": [
+        [
+          "Anna",
+          "Enes"
+        ],
+        [
+          "Camelia",
+          "Levin"
+        ],
+        [
+          "Chiara",
+          "Tano"
+        ],
+        [
+          "Deisy",
+          "Dino"
+        ],
+        [
+          "Ina",
+          "Sinan"
+        ],
+        [
+          "Joanna",
+          "Kaan"
+        ],
+        [
+          "Nadja",
+          "Josh"
+        ],
+        [
+          "Selina",
+          "Joshua"
+        ],
+        [
+          "Sophia",
+          "Danish"
+        ],
+        [
+          "Tori",
+          "Dion"
+        ]
+      ],
+      "singles": [
+        "Nasti"
+      ],
+      "url": "https://ayto-fans.de/2025/matchnight/1/"
+    },
+    {
+      "number": 2,
+      "pairs": [
+        [
+          "Anna",
+          "Kaan"
+        ],
+        [
+          "Camelia",
+          "Danish"
+        ],
+        [
+          "Chiara",
+          "Levin"
+        ],
+        [
+          "Deisy",
+          "Dino"
+        ],
+        [
+          "Ina",
+          "Sinan"
+        ],
+        [
+          "Joanna",
+          "Joshua"
+        ],
+        [
+          "Nadja",
+          "Josh"
+        ],
+        [
+          "Nasti",
+          "Enes"
+        ],
+        [
+          "Selina",
+          "Dion"
+        ],
+        [
+          "Tori",
+          "Tano"
+        ]
+      ],
+      "singles": [
+        "Sophia"
+      ],
+      "url": "https://ayto-fans.de/2025/matchnight/2/"
+    },
+    {
+      "number": 3,
+      "pairs": [
+        [
+          "Anna",
+          "Kaan"
+        ],
+        [
+          "Camelia",
+          "Levin"
+        ],
+        [
+          "Chiara",
+          "Dion"
+        ],
+        [
+          "Deisy",
+          "Dino"
+        ],
+        [
+          "Joanna",
+          "Joshua"
+        ],
+        [
+          "Nadja",
+          "Josh"
+        ],
+        [
+          "Nasti",
+          "Sinan"
+        ],
+        [
+          "Selina",
+          "Enes"
+        ],
+        [
+          "Sophia",
+          "Danish"
+        ],
+        [
+          "Tori",
+          "Tano"
+        ]
+      ],
+      "singles": [
+        "Ina"
+      ],
+      "url": "https://ayto-fans.de/2025/matchnight/3/"
+    },
+    {
+      "number": 4,
+      "pairs": [
+        [
+          "Anna",
+          "Kaan"
+        ],
+        [
+          "Camelia",
+          "Levin"
+        ],
+        [
+          "Deisy",
+          "Dino"
+        ],
+        [
+          "Ina",
+          "Josh"
+        ],
+        [
+          "Joanna",
+          "Joshua"
+        ],
+        [
+          "Nadja",
+          "Danish"
+        ],
+        [
+          "Nasti",
+          "Dion"
+        ],
+        [
+          "Selina",
+          "Enes"
+        ],
+        [
+          "Sophia",
+          "Sinan"
+        ],
+        [
+          "Tori",
+          "Tano"
+        ]
+      ],
+      "singles": [
+        "Chiara"
+      ],
+      "url": "https://ayto-fans.de/2025/matchnight/4/"
+    },
+    {
+      "number": 5,
+      "pairs": [
+        [
+          "Camelia",
+          "Levin"
+        ],
+        [
+          "Chiara",
+          "Dion"
+        ],
+        [
+          "Deisy",
+          "Dino"
+        ],
+        [
+          "Ina",
+          "Josh"
+        ],
+        [
+          "Joanna",
+          "Joshua"
+        ],
+        [
+          "Nadja",
+          "Danish"
+        ],
+        [
+          "Nasti",
+          "Sinan"
+        ],
+        [
+          "Selina",
+          "Enes"
+        ],
+        [
+          "Sophia",
+          "Kaan"
+        ],
+        [
+          "Tori",
+          "Tano"
+        ]
+      ],
+      "singles": [
+        "Anna"
+      ],
+      "url": "https://ayto-fans.de/2025/matchnight/5/"
+    },
+    {
+      "number": 6,
+      "pairs": [
+        [
+          "Anna",
+          "Dion"
+        ],
+        [
+          "Camelia",
+          "Sinan"
+        ],
+        [
+          "Chiara",
+          "Levin"
+        ],
+        [
+          "Deisy",
+          "Dino"
+        ],
+        [
+          "Ina",
+          "Joshua"
+        ],
+        [
+          "Nadja",
+          "Danish"
+        ],
+        [
+          "Nasti",
+          "Josh"
+        ],
+        [
+          "Selina",
+          "Enes"
+        ],
+        [
+          "Sophia",
+          "Kaan"
+        ],
+        [
+          "Tori",
+          "Tano"
+        ]
+      ],
+      "singles": [
+        "Joanna"
+      ],
+      "url": "https://ayto-fans.de/2025/matchnight/6/"
+    },
+    {
+      "number": 7,
+      "pairs": [
+        [
+          "Anna",
+          "Tano"
+        ],
+        [
+          "Camelia",
+          "Josh"
+        ],
+        [
+          "Chiara",
+          "Levin"
+        ],
+        [
+          "Deisy",
+          "Dino"
+        ],
+        [
+          "Joanna",
+          "Joshua"
+        ],
+        [
+          "Nadja",
+          "Danish"
+        ],
+        [
+          "Nasti",
+          "Sinan"
+        ],
+        [
+          "Selina",
+          "Kaan"
+        ],
+        [
+          "Sophia",
+          "Enes"
+        ],
+        [
+          "Tori",
+          "Dion"
+        ]
+      ],
+      "singles": [
+        "Ina"
+      ],
+      "url": "https://ayto-fans.de/2025/matchnight/7/"
+    },
+    {
+      "number": 8,
+      "pairs": [
+        [
+          "Anna",
+          "Joshua"
+        ],
+        [
+          "Camelia",
+          "Josh"
+        ],
+        [
+          "Chiara",
+          "Dion"
+        ],
+        [
+          "Deisy",
+          "Dino"
+        ],
+        [
+          "Ina",
+          "Levin"
+        ],
+        [
+          "Joanna",
+          "Tano"
+        ],
+        [
+          "Nadja",
+          "Danish"
+        ],
+        [
+          "Nasti",
+          "Sinan"
+        ],
+        [
+          "Selina",
+          "Kaan"
+        ],
+        [
+          "Sophia",
+          "Enes"
+        ]
+      ],
+      "singles": [
+        "Tori"
+      ],
+      "url": "https://ayto-fans.de/2025/matchnight/8/"
+    },
+    {
+      "number": 9,
+      "pairs": [
+        [
+          "Anna",
+          "Kaan"
+        ],
+        [
+          "Camelia",
+          "Josh"
+        ],
+        [
+          "Chiara",
+          "Levin"
+        ],
+        [
+          "Deisy",
+          "Dino"
+        ],
+        [
+          "Ina",
+          "Enes"
+        ],
+        [
+          "Joanna",
+          "Tano"
+        ],
+        [
+          "Nadja",
+          "Danish"
+        ],
+        [
+          "Nasti",
+          "Sinan"
+        ],
+        [
+          "Sophia",
+          "Dion"
+        ],
+        [
+          "Tori",
+          "Joshua"
+        ]
+      ],
+      "singles": [
+        "Selina"
+      ],
+      "url": "https://ayto-fans.de/2025/matchnight/9/"
+    },
+    {
+      "number": 10,
+      "pairs": [
+        [
+          "Anna",
+          "Kaan"
+        ],
+        [
+          "Camelia",
+          "Josh"
+        ],
+        [
+          "Chiara",
+          "Levin"
+        ],
+        [
+          "Deisy",
+          "Dino"
+        ],
+        [
+          "Ina",
+          "Joshua"
+        ],
+        [
+          "Joanna",
+          "Tano"
+        ],
+        [
+          "Nadja",
+          "Danish"
+        ],
+        [
+          "Nasti",
+          "Sinan"
+        ],
+        [
+          "Selina",
+          "Enes"
+        ],
+        [
+          "Tori",
+          "Dion"
+        ]
+      ],
+      "singles": [
+        "Sophia"
+      ],
+      "url": "https://ayto-fans.de/2025/matchnight/10/"
+    }
+  ],
+  "failures": [],
+  "warnings": []
+}

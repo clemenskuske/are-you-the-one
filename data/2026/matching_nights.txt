@@ -1,0 +1,129 @@
+Matchnight #01 — Matches: 3
+  - Adrianna x Julian M
+  - Aurora x Julian S
+  - Elena x Jerry
+  - Ella x Meji
+  - Laura x Evi
+  - Linda x Chris
+  - Marla x Luke
+  - Michelle x Ema
+  - Tiziana x Jeronymo
+  - Tonia x Noel
+  Geht leer aus: Alicia
+
+Matchnight #02 — Matches: 2
+  - Adrianna x Julian S
+  - Alicia x Julian M
+  - Elena x Meji
+  - Ella x Ema
+  - Laura x Evi
+  - Linda x Noel
+  - Marla x Luke
+  - Michelle x Jerry
+  - Tiziana x Jeronymo
+  - Tonia x Chris
+  Geht leer aus: Aurora
+
+Matchnight #03 — Matches: 2
+  - Adrianna x Julian M
+  - Alicia x Julian S
+  - Aurora x Jerry
+  - Elena x Meji
+  - Laura x Evi
+  - Linda x Chris
+  - Marla x Luke
+  - Michelle x Ema
+  - Tiziana x Jeronymo
+  - Tonia x Noel
+  Geht leer aus: Ella
+
+Matchnight #04 — Matches: sold
+  Verkauft für: 55000
+  - Aurora x Chris
+  - Tonia x Luke
+  - Laura x Meji
+  - Elena x Jerry
+  - Ella x Evi
+  - Alicia x Julian S
+  - Michelle x Ema
+  - Linda x Jeronymo
+  - Adrianna x Noel
+  - Marla x Julian M
+  Geht leer aus: Tiziana
+
+Matchnight #05 — Matches: 5
+  - Adrianna x Julian S
+  - Aurora x Evi
+  - Elena x Jerry
+  - Ella x Meji
+  - Laura x Luke
+  - Linda x Chris
+  - Marla x Julian M
+  - Michelle x Ema
+  - Tiziana x Jeronymo
+  - Tonia x Noel
+  Geht leer aus: Alicia
+
+Matchnight #06 — Matches: 4
+  - Adrianna x Luke
+  - Aurora x Meji
+  - Elena x Jerry
+  - Ella x Chris
+  - Laura x Jeronymo
+  - Linda x Evi
+  - Marla x Julian M
+  - Michelle x Ema
+  - Tiziana x Julian S
+  - Tonia x Noel
+  Geht leer aus: Alicia
+
+Matchnight #07 — Matches: 4
+  - Adrianna x Julian S
+  - Aurora x Evi
+  - Elena x Luke
+  - Ella x Meji
+  - Laura x Jerry
+  - Linda x Chris
+  - Marla x Julian M
+  - Michelle x Ema
+  - Tiziana x Jeronymo
+  - Tonia x Noel
+  Geht leer aus: Alicia
+
+Matchnight #08 — Matches: 5
+  - Adrianna x Julian S
+  - Aurora x Ema
+  - Elena x Jerry
+  - Ella x Meji
+  - Laura x Luke
+  - Linda x Chris
+  - Marla x Julian M
+  - Michelle x Evi
+  - Tiziana x Jeronymo
+  - Tonia x Noel
+  Geht leer aus: Alicia
+
+Matchnight #09 — Matches: 3
+  - Adrianna x Luke
+  - Aurora x Evi
+  - Elena x Jerry
+  - Ella x Meji
+  - Laura x Julian S
+  - Linda x Ema
+  - Marla x Julian M
+  - Michelle x Jeronymo
+  - Tiziana x Chris
+  - Tonia x Noel
+  Geht leer aus: Alicia
+
+Matchnight #10 — Matches: 4
+  - Adrianna x Evi
+  - Aurora x Jerry
+  - Elena x Ema
+  - Ella x Meji
+  - Laura x Chris
+  - Linda x Luke
+  - Marla x Julian M
+  - Michelle x Julian S
+  - Tiziana x Jeronymo
+  - Tonia x Noel

@@ -1,0 +1,11 @@
+Matchbox #08: Antonia x Oliver -> false
+Matchbox #04: Beverly x Jonny -> false
+Matchbox #02: Elissia x Xander -> true
+Matchbox #09: Hati x Jimmy Blue -> false
+Matchbox #10: Henna x Sidar -> false
+Matchbox #03: Nelly x Calvin S. -> false
+Matchbox #06: Nelly x Jimmy Blue -> false
+Matchbox #01: Sandra x Kevin -> sold 20
+Matchbox #05: Sandra x Leandro -> false
+Matchbox #07: Sandra x Lennert -> true
+Matchbox #11: Nelly x Calvin O. -> sold 45000

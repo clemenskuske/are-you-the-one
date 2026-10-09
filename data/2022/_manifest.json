@@ -1,0 +1,115 @@
+{
+  "season": "2022",
+  "page_url": "https://ayto-fans.de/2022/",
+  "candidate_names_found": 21,
+  "candidate_image_urls_found": 21,
+  "downloaded": [
+    {
+      "name": "Aurelia",
+      "file": "2022/aurelia.jpg",
+      "url": "https://directus.ayto-fans.de/assets/a16a1daa-85e6-48d5-9f01-33dd48eb6440"
+    },
+    {
+      "name": "Barkin",
+      "file": "2022/barkin.jpg",
+      "url": "https://directus.ayto-fans.de/assets/07979a75-0c4e-4bbb-b523-53e352b7c17a"
+    },
+    {
+      "name": "Burim",
+      "file": "2022/burim.jpg",
+      "url": "https://directus.ayto-fans.de/assets/0f3d3848-1279-45ae-a048-7ffc1784fa74"
+    },
+    {
+      "name": "Carina",
+      "file": "2022/carina.jpg",
+      "url": "https://directus.ayto-fans.de/assets/1583dcc6-566f-4c4f-a1c0-a2b3f4ff0be3"
+    },
+    {
+      "name": "Caroline",
+      "file": "2022/caroline.jpg",
+      "url": "https://directus.ayto-fans.de/assets/335459f6-0123-4289-bedc-5279c92afea4"
+    },
+    {
+      "name": "Cris",
+      "file": "2022/cris.jpg",
+      "url": "https://directus.ayto-fans.de/assets/9a9dbf31-8205-411d-807a-e27d2f584f9a"
+    },
+    {
+      "name": "D.",
+      "file": "2022/d.jpg",
+      "url": "https://directus.ayto-fans.de/assets/1cb20ad2-1a91-4cf5-8fbc-16efc9a91513"
+    },
+    {
+      "name": "Deniz",
+      "file": "2022/deniz.webp",
+      "url": "https://directus.ayto-fans.de/assets/0a25ee44-64b4-4eb9-b505-6a4618e770ee"
+    },
+    {
+      "name": "Henna",
+      "file": "2022/henna.jpg",
+      "url": "https://directus.ayto-fans.de/assets/d1ff95d7-e122-4af9-834e-91d99230ebcc"
+    },
+    {
+      "name": "Joel",
+      "file": "2022/joel.jpg",
+      "url": "https://directus.ayto-fans.de/assets/7976c173-8f40-4525-a6fa-1f0378857a72"
+    },
+    {
+      "name": "Juliette",
+      "file": "2022/juliette.jpg",
+      "url": "https://directus.ayto-fans.de/assets/ac50b465-0917-432a-8bd5-01378440b767"
+    },
+    {
+      "name": "Ken",
+      "file": "2022/ken.jpg",
+      "url": "https://directus.ayto-fans.de/assets/423db43d-9358-4598-92aa-b3f296307a65"
+    },
+    {
+      "name": "Kenneth",
+      "file": "2022/kenneth.jpg",
+      "url": "https://directus.ayto-fans.de/assets/f9244dcb-21f6-44a5-ba68-49f61a206255"
+    },
+    {
+      "name": "Larissa",
+      "file": "2022/larissa.jpg",
+      "url": "https://directus.ayto-fans.de/assets/9a105679-6f79-4e79-a969-ee324704dc68"
+    },
+    {
+      "name": "Marwin",
+      "file": "2022/marwin.jpg",
+      "url": "https://directus.ayto-fans.de/assets/51e9d8c1-6593-4582-9a96-080190e23976"
+    },
+    {
+      "name": "Max",
+      "file": "2022/max.jpg",
+      "url": "https://directus.ayto-fans.de/assets/14ead7ba-581a-470a-95e3-c3635cf72f7d"
+    },
+    {
+      "name": "Pascal",
+      "file": "2022/pascal.jpg",
+      "url": "https://directus.ayto-fans.de/assets/46d05006-2fc1-4a35-acde-20941084f898"
+    },
+    {
+      "name": "Sasa",
+      "file": "2022/sasa.jpg",
+      "url": "https://directus.ayto-fans.de/assets/161f7a49-0c44-452b-8439-98948ff78fee"
+    },
+    {
+      "name": "Stefanie",
+      "file": "2022/stefanie.jpg",
+      "url": "https://directus.ayto-fans.de/assets/7c93f850-fcde-4084-a0cf-09fcc5644d77"
+    },
+    {
+      "name": "Valeria",
+      "file": "2022/valeria.jpg",
+      "url": "https://directus.ayto-fans.de/assets/6de23158-bd8b-4363-a0cf-1b62113e2b6b"
+    },
+    {
+      "name": "Vanessa",
+      "file": "2022/vanessa.jpg",
+      "url": "https://directus.ayto-fans.de/assets/a82b5de3-b148-4f49-a79f-7b8594758db2"
+    }
+  ],
+  "failures": [],
+  "warnings": []
+}

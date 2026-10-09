@@ -1,0 +1,9 @@
+Matchbox #10: Alicia x Elia -> true
+Matchbox #06: Alicia x Teezy -> false
+Matchbox #05: Darya x Danielo -> true
+Matchbox #03: Darya x Elia -> false
+Matchbox #01: Jenny x Danielo -> true
+Matchbox #02: Jenny x Elia -> false
+Matchbox #04: Kim-Virginia x Mike -> false
+Matchbox #08: Sabrina x Max -> false
+Matchbox #09: Stefanie x Emanuell -> true

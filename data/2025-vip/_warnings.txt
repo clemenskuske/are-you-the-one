@@ -1,0 +1,2 @@
+Expected 21 candidate names, found 22.
+Expected 21 candidate image URLs, found 22.
