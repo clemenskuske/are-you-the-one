@@ -557,3 +557,27 @@ test('invalid double-match knowledge is diagnosed and selections do not leak int
   manager.hydrateFromSeasonDatapoints(currentSeasonRecords(), { maxMatchingNight: 3 })
   assert.equal(manager.setKnownDoubleMatchPerson('laurenz').knownDoubleMatchPersonId, null)
 })
+
+test('Laurenz is automatically confirmed from his arrival, without leaking into earlier cutoffs', async () => {
+  const records = currentSeasonRecords()
+  const manager = new board.MatchBoardManager()
+  for (const [cutoff, includeNight, expectedId] of [
+    [1, true, null], [3, true, null], [4, true, null],
+    [5, false, 'laurenz'], [5, true, 'laurenz'], [7, true, 'laurenz'],
+  ]) {
+    const { snapshot } = manager.hydrateFromSeasonDatapoints(records, {
+      maxMatchingNight: cutoff, includeMaxMatchingNight: includeNight,
+    })
+    assert.equal(snapshot.knownDoubleMatchPersonId, expectedId, `night ${cutoff}, included ${includeNight}`)
+    assert.equal(snapshot.seasonKnownDoubleMatchPersonId, expectedId)
+    assert.equal(snapshot.addedToMatch, null, 'no completed shared pairing is chosen')
+    assert.equal(await solver.checkJointMatchBoardState(snapshot), 'possible')
+    if (cutoff >= 3) assert.deepEqual(snapshot.knownAddedToMatches, [{ personId: 'janice', pairKey: 'marta:johannes' }])
+    if (expectedId) {
+      assert.equal(manager.setKnownDoubleMatchPerson(null).knownDoubleMatchPersonId, 'laurenz')
+      assert.equal(manager.setKnownDoubleMatchPerson('emma').knownDoubleMatchPersonId, 'laurenz')
+    }
+  }
+  const differentSeason = { ...records, pk: '2025-vip' }
+  assert.equal(manager.hydrateFromSeasonDatapoints(differentSeason, { maxMatchingNight: 7 }).snapshot.knownDoubleMatchPersonId, null)
+})

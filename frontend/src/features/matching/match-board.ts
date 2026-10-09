@@ -7,6 +7,7 @@ import {
   getMatchCountDeductions,
   isConfirmedNegativeStage,
 } from './match-count-rules'
+import { SEASON_RULES } from './season-rules'
 
 export const LEFT_GROUP_LABEL = 'females'
 export const RIGHT_GROUP_LABEL = 'males'
@@ -81,6 +82,7 @@ export type MatchBoardState = {
   addedToMatch: AddedToMatchMove | null
   knownAddedToMatches?: AddedToMatchMove[]
   knownDoubleMatchPersonId?: string | null
+  seasonKnownDoubleMatchPersonId?: string | null
   matches: Record<MatchKey, MatchRecord>
   matchingNights: MatchingNight[]
   matchBoxes: MatchBox[]
@@ -2538,7 +2540,8 @@ export class MatchBoardManager {
   }
 
   setKnownDoubleMatchPersonWithPlan(personId: string | null): MatchStageChangePlan {
-    const knownId = getKnownDoubleMatchOptions(this.state).some(person => person.id === personId) ? personId : null
+    const knownId = this.state.seasonKnownDoubleMatchPersonId ??
+      (getKnownDoubleMatchOptions(this.state).some(person => person.id === personId) ? personId : null)
     if ((this.state.knownDoubleMatchPersonId ?? null) === knownId) {
       const snapshot = this.getSnapshot()
       return { immediateSnapshot: snapshot, derivationSteps: [], finalSnapshot: snapshot }
@@ -2958,8 +2961,18 @@ function buildBoardFromSeasonDatapoints(
     matchBoxes,
     timeline,
   }
+  const state = { ...stateWithoutStoredMove, knownAddedToMatches }
+  const knownParticipant = SEASON_RULES[records.pk]?.doubleMatchParticipant
+  const seasonKnownDoubleMatchPersonId = knownParticipant &&
+    isWithinMatchingNightLimit(knownParticipant.fromMatchingNight, options?.maxMatchingNight) &&
+    getKnownDoubleMatchOptions(state).some(person => person.id === knownParticipant.personId)
+    ? knownParticipant.personId : null
   return {
-    state: { ...stateWithoutStoredMove, knownAddedToMatches },
+    state: {
+      ...state,
+      knownDoubleMatchPersonId: seasonKnownDoubleMatchPersonId,
+      seasonKnownDoubleMatchPersonId,
+    },
     appliedMatchStateCount,
   }
 }
@@ -3466,6 +3479,7 @@ function cloneMatchBoardState(state: MatchBoardState): MatchBoardState {
     addedToMatch: state.addedToMatch ? { ...state.addedToMatch } : null,
     knownAddedToMatches: state.knownAddedToMatches?.map(move => ({ ...move })),
     knownDoubleMatchPersonId: state.knownDoubleMatchPersonId ?? null,
+    seasonKnownDoubleMatchPersonId: state.seasonKnownDoubleMatchPersonId ?? null,
     matches: cloneMatches(state.matches),
     matchingNights: cloneMatchingNights(state.matchingNights),
     matchBoxes: cloneMatchBoxes(state.matchBoxes),

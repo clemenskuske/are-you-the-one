@@ -19,8 +19,8 @@ active counts. Equal total cast sizes can therefore still require a double match
   known. A contestant on the smaller active side has two partners. A contestant on
   the larger active side must share their partner with another contestant. Both
   the capacity checks and joint solver enforce this fact; selecting someone never
-  picks a partner automatically. The selection is saved in the URL and can be
-  cleared. Historical resolved shared matches remain separate.
+  picks a partner automatically. Manual selections are saved in the URL and can
+  be cleared. Historical resolved shared matches remain separate.
 - Stored `added-to-match` records are known season facts and are kept in
   `knownAddedToMatches`. A new user selection is stored separately in
   `addedToMatch` and remains an expectation. Removing that selection preserves
@@ -29,6 +29,11 @@ active counts. Equal total cast sizes can therefore still require a double match
   Laurenz appears, the full cast has 11 women and 11 men, while the active partner
   pool has 10 women and 11 men. Johannes retains his historical second partner,
   and one active woman can also have two partners.
+- Laurenz is a confirmed participant in the 2026 VIP double match from night 5.
+  The board loads this season fact automatically when he is in the active cast.
+  It cannot be cleared or replaced by a saved manual selection. His partner and
+  the other sharing contestant remain open until the evidence determines them.
+  Season facts are configured in `src/features/matching/season-rules.ts`.
 - A Matching Night has exactly its reported number of matches. Count each pair
   once, including positive Match-Box results already confirmed by that night when
   omitted from its lineup. Future, expected, or merely inferred Match-Box outcomes

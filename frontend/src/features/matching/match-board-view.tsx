@@ -711,7 +711,7 @@ export function ExpectedDecisionsPanel({
               <span>Known double-match participant</span>
               <select aria-label="Known double-match participant"
                 value={state.knownDoubleMatchPersonId ?? ''}
-                disabled={!onSetKnownDoubleMatchPerson}
+                disabled={!onSetKnownDoubleMatchPerson || Boolean(state.seasonKnownDoubleMatchPersonId)}
                 onChange={event => onSetKnownDoubleMatchPerson?.(event.target.value || null)}>
                 <option value="">Not yet known</option>
                 {knownDoubleOptions.map(person => (
@@ -719,6 +719,9 @@ export function ExpectedDecisionsPanel({
                 ))}
               </select>
             </label>
+            {state.seasonKnownDoubleMatchPersonId ? (
+              <span className="decision-chip decision-chip--added-to-match">Confirmed season fact</span>
+            ) : null}
             <p className="decision-group__empty">
               {knownDoublePerson
                 ? getPersonSide(state, knownDoublePerson.id) === baselineLargerSide
