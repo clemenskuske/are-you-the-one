@@ -15,6 +15,12 @@ active counts. Equal total cast sizes can therefore still require a double match
 - With one extra active contestant, exactly one person on the smaller active side
   has two active partners; everyone else has one. Historical shared partners add
   their separate, already resolved pairing to these requirements.
+- A **Known double-match participant** can be selected before their partners are
+  known. A contestant on the smaller active side has two partners. A contestant on
+  the larger active side must share their partner with another contestant. Both
+  the capacity checks and joint solver enforce this fact; selecting someone never
+  picks a partner automatically. The selection is saved in the URL and can be
+  cleared. Historical resolved shared matches remain separate.
 - Stored `added-to-match` records are known season facts and are kept in
   `knownAddedToMatches`. A new user selection is stored separately in
   `addedToMatch` and remains an expectation. Removing that selection preserves

@@ -80,6 +80,7 @@ export type MatchBoardState = {
   rightPeople: Person[]
   addedToMatch: AddedToMatchMove | null
   knownAddedToMatches?: AddedToMatchMove[]
+  knownDoubleMatchPersonId?: string | null
   matches: Record<MatchKey, MatchRecord>
   matchingNights: MatchingNight[]
   matchBoxes: MatchBox[]
@@ -470,6 +471,38 @@ export function getLargerSidePeople(state: MatchBoardState) {
   return side ? getActivePeople(state, side) : []
 }
 
+export function getKnownDoubleMatchOptions(state: MatchBoardState) {
+  const baseline = { ...state, addedToMatch: null }
+  return getSmallerSide(baseline)
+    ? [...getActivePeople(baseline, 'left'), ...getActivePeople(baseline, 'right')]
+    : []
+}
+
+function isKnownDoubleMatchCompatible(state: MatchBoardState) {
+  const personId = state.knownDoubleMatchPersonId
+  if (!personId) return true
+  if (!getKnownDoubleMatchOptions(state).some(person => person.id === personId)) return false
+  const move = state.addedToMatch
+  if (!move) return true
+  const target = state.matches[move.pairKey]
+  return move.personId === personId || target?.leftId === personId || target?.rightId === personId
+}
+
+function getKnownDoubleMatchCentre(state: MatchBoardState) {
+  const personId = state.knownDoubleMatchPersonId
+  if (!personId) return null
+  const smallerSide = getSmallerSide(state)
+  if (!smallerSide) return null
+  if (getPersonSide(state, personId) === smallerSide) return personId
+  const possiblePartners = smallerSide === 'left' ? state.leftPeople : state.rightPeople
+  for (const partner of possiblePartners) {
+    const key = smallerSide === 'left' ? createMatchKey(partner.id, personId) : createMatchKey(personId, partner.id)
+    const pair = state.matches[key]
+    if (pair && POSITIVE_MATCH_STAGES.has(pair.stage) && isActivePair(state, pair)) return partner.id
+  }
+  return null
+}
+
 export function getAddedPairKey(
   state: MatchBoardState,
   move: AddedToMatchMove | null = state.addedToMatch,
@@ -541,6 +574,10 @@ export function getAddToMatchOptions(
     const sharedPersonId =
       smallerSide === 'left' ? targetPair.leftId : targetPair.rightId
 
+    if (state.knownDoubleMatchPersonId && ![
+      personId, targetPair.leftId, targetPair.rightId,
+    ].includes(state.knownDoubleMatchPersonId)) return false
+
     if (
       !addedPair ||
       NEGATIVE_MATCH_STAGES.has(addedPair.stage) ||
@@ -576,7 +613,7 @@ function normalizeAddedToMatch(
     : null
 }
 
-function getRequiredMatchCount(
+function getBaseRequiredMatchCount(
   state: MatchBoardState,
   personId: string,
   side: Side,
@@ -586,15 +623,23 @@ function getRequiredMatchCount(
   ).length
 }
 
+function getRequiredMatchCount(state: MatchBoardState, personId: string, side: Side) {
+  const base = getBaseRequiredMatchCount(state, personId, side)
+  if (!state.knownDoubleMatchPersonId) return base
+  return base + (getKnownDoubleMatchCentre(state) === personId ? 1 : 0)
+}
+
 function getMatchCapacity(state: MatchBoardState, personId: string, side: Side) {
   if (getAddedToMatchMoves(state).some(move => move.personId === personId)) return 1
-  const baseCapacity = getRequiredMatchCount(state, personId, side)
+  const baseCapacity = getBaseRequiredMatchCount(state, personId, side)
   if (getSmallerSide(state) !== side) return baseCapacity
   const doublePersonId = findDoubleMatchPersonFromPositivePairs(state, side)
   return baseCapacity + (!doublePersonId || doublePersonId === personId ? 1 : 0)
 }
 
 function findDoubleMatchPersonFromPositivePairs(state: MatchBoardState, side: Side) {
+  const knownCentre = getKnownDoubleMatchCentre(state)
+  if (knownCentre && getPersonSide(state, knownCentre) === side) return knownCentre
   const counts = new Map<string, number>()
   for (const pair of Object.values(state.matches)) {
     if (!POSITIVE_MATCH_STAGES.has(pair.stage) || !isActivePair(state, pair)) continue
@@ -620,15 +665,23 @@ function getFactsOnlyState(state: MatchBoardState): MatchBoardState {
 export function getSeasonDegreeOptions(state: MatchBoardState) {
   const leftSize = getActivePeople(state, 'left').length
   const rightSize = getActivePeople(state, 'right').length
-  if (Math.abs(leftSize - rightSize) > 1) return []
-  const candidates = getSmallerSide(state) ? getSmallerSidePeople(state).map(person => person.id) : [null]
+  if (Math.abs(leftSize - rightSize) > 1 || !isKnownDoubleMatchCompatible(state)) return []
+  const smallerSide = getSmallerSide(state)
+  const knownId = state.knownDoubleMatchPersonId
+  const knownSide = knownId ? getPersonSide(state, knownId) : null
+  const candidates = smallerSide
+    ? knownId && knownSide === smallerSide ? [knownId] : getSmallerSidePeople(state).map(person => person.id)
+    : [null]
   return candidates.map(doublePersonId => ({
     left: new Map(state.leftPeople.map(person => [person.id,
-      getRequiredMatchCount(state, person.id, 'left') + (person.id === doublePersonId ? 1 : 0),
+      getBaseRequiredMatchCount(state, person.id, 'left') + (person.id === doublePersonId ? 1 : 0),
     ])),
     right: new Map(state.rightPeople.map(person => [person.id,
-      getRequiredMatchCount(state, person.id, 'right') + (person.id === doublePersonId ? 1 : 0),
+      getBaseRequiredMatchCount(state, person.id, 'right') + (person.id === doublePersonId ? 1 : 0),
     ])),
+    requiredPairKeys: knownId && doublePersonId && knownSide !== smallerSide
+      ? [smallerSide === 'left' ? createMatchKey(doublePersonId, knownId) : createMatchKey(knownId, doublePersonId)]
+      : [],
   }))
 }
 
@@ -652,6 +705,11 @@ export type MatchBoardContradiction = {
 
 export function getMatchBoardContradictions(state: MatchBoardState): MatchBoardContradiction[] {
   const contradictions: MatchBoardContradiction[] = []
+  if (!isKnownDoubleMatchCompatible(state)) {
+    contradictions.push({ id: 'known-double-match', pairKeys: [],
+      message: 'The known double-match participant must belong to the uneven active groups and be included in the selected shared match.',
+    })
+  }
   const leftSize = getActivePeople(state, 'left').length
   const rightSize = getActivePeople(state, 'right').length
   if (Math.abs(leftSize - rightSize) > 1) {
@@ -803,6 +861,7 @@ function runDerivationPasses(
 
 function areBasicCountsPossible(state: MatchBoardState) {
   if (
+    !isKnownDoubleMatchCompatible(state) ||
     Math.abs(getActivePeople(state, 'left').length - getActivePeople(state, 'right').length) > 1 ||
     !areMatchingNightCountsPossible(state)
   ) {
@@ -989,6 +1048,7 @@ function applySingleRemainingPairDerivations(
 ) {
   let changed = false
   const currentState = { ...state, matches }
+  const factsState = getFactsOnlyState(currentState)
   const pairsBySide = indexPairsByPerson(matches)
 
   for (const side of ['left', 'right'] as const) {
@@ -1000,6 +1060,7 @@ function applySingleRemainingPairDerivations(
           person.id,
           side,
           currentState,
+          factsState,
           pairsBySide[side].get(person.id) ?? [],
           derivationSteps,
           collectSteps,
@@ -1141,6 +1202,7 @@ function applySingleRemainingPairForPerson(
   personId: string,
   side: Side,
   state: MatchBoardState,
+  factsState: MatchBoardState,
   personPairs: MatchRecord[],
   derivationSteps: MatchDerivationStep[],
   collectSteps: boolean,
@@ -1148,10 +1210,11 @@ function applySingleRemainingPairForPerson(
   const { matches } = state
   const requiredMatchCount = getRequiredMatchCount(state, personId, side)
   const dependsOnAddedToMatch = requiredMatchCount > getRequiredMatchCount({ ...state, addedToMatch: null }, personId, side)
+  const dependsOnExpectedState = requiredMatchCount > getRequiredMatchCount(factsState, personId, side)
   const deductions = getMatchCountDeductions(personPairs, {
     required: requiredMatchCount,
     capacity: personPairs.length,
-    dependsOnExpectedState: dependsOnAddedToMatch,
+    dependsOnExpectedState,
   }).filter(deduction => deduction.reason === 'required-matches')
   let changed = false
 
@@ -1262,6 +1325,14 @@ function canCompleteMatchingWithDegrees(
   state: MatchBoardState,
   degrees: ReturnType<typeof getSeasonDegreeOptions>[number],
 ) {
+  if (degrees.requiredPairKeys.length > 0) {
+    state = { ...state, matches: { ...state.matches } }
+    for (const key of degrees.requiredPairKeys) {
+      const pair = state.matches[key]
+      if (!pair || NEGATIVE_MATCH_STAGES.has(pair.stage)) return false
+      state.matches[key] = { ...pair, stage: 'match' }
+    }
+  }
   const leftRequiredDegrees = degrees.left
   const rightRequiredDegrees = degrees.right
   const leftRemainingDegrees = new Map(leftRequiredDegrees)
@@ -1638,7 +1709,9 @@ function createDerivationText(
             currentState,
             stepMeta.resolvedDoubleMatchPersonId,
             personSide,
-          )} already has both matches and therefore fills the shared-match slot, so`
+          )} ${currentState.knownDoubleMatchPersonId
+            ? 'occupies the double-match slot'
+            : 'already has both matches and therefore fills the shared-match slot'}, so`
         : ''
 
       return `This pair was derived as ${outcomeText} because${addedToMatchContext}${resolvedDoubleMatchContext} ${formatPersonName(
@@ -2296,15 +2369,17 @@ function isDirectMatchStage(stage: MatchStage) {
   return stage === 'match' || stage === 'no-match'
 }
 
-function removeDerivedMatchStages(state: MatchBoardState): MatchBoardState {
+function removeDerivedMatchStages(state: MatchBoardState, preserveConfirmed = false): MatchBoardState {
+  const shouldClear = (stage: MatchStage) => isDerivedMatchStage(stage) &&
+    (!preserveConfirmed || EXPECTED_MATCH_STAGES.has(stage))
   const matches = Object.fromEntries(
     Object.entries(state.matches).map(([pairKey, pair]) => [
       pairKey,
       {
         ...pair,
-        stage: isDerivedMatchStage(pair.stage) ? 'undefined' : pair.stage,
-        derivationText: isDerivedMatchStage(pair.stage) ? null : pair.derivationText,
-        derivationPrerequisites: isDerivedMatchStage(pair.stage)
+        stage: shouldClear(pair.stage) ? 'undefined' : pair.stage,
+        derivationText: shouldClear(pair.stage) ? null : pair.derivationText,
+        derivationPrerequisites: shouldClear(pair.stage)
           ? []
           : pair.derivationPrerequisites,
       },
@@ -2462,6 +2537,27 @@ export class MatchBoardManager {
     return cloneMatchBoardState(this.state)
   }
 
+  setKnownDoubleMatchPersonWithPlan(personId: string | null): MatchStageChangePlan {
+    const knownId = getKnownDoubleMatchOptions(this.state).some(person => person.id === personId) ? personId : null
+    if ((this.state.knownDoubleMatchPersonId ?? null) === knownId) {
+      const snapshot = this.getSnapshot()
+      return { immediateSnapshot: snapshot, derivationSteps: [], finalSnapshot: snapshot }
+    }
+    const baseState = removeDerivedMatchStages(this.state, !this.state.knownDoubleMatchPersonId && Boolean(knownId))
+    const immediateState = { ...baseState, knownDoubleMatchPersonId: knownId }
+    const derivationResult = runDerivationPasses(immediateState, true)
+    this.state = { ...immediateState, matches: derivationResult.matches }
+    return {
+      immediateSnapshot: cloneMatchBoardState(immediateState),
+      derivationSteps: derivationResult.derivationSteps,
+      finalSnapshot: this.getSnapshot(),
+    }
+  }
+
+  setKnownDoubleMatchPerson(personId: string | null) {
+    return this.setKnownDoubleMatchPersonWithPlan(personId).finalSnapshot
+  }
+
   setAddedToMatchWithPlan(
     move: AddedToMatchMove | null,
   ): MatchStageChangePlan {
@@ -2526,16 +2622,8 @@ export class MatchBoardManager {
       const snapshot = this.getSnapshot()
       return { immediateSnapshot: snapshot, derivationSteps: [], finalSnapshot: snapshot }
     }
-    const baseState = removeDerivedMatchStages(this.state)
-    if (preserveConfirmedDeductions) {
-      // A bulk load only adds constraints. Its unchanged facts still support all
-      // confirmed deductions, even if new expectations would obscure that proof.
-      for (const pair of Object.values(this.state.matches)) {
-        if (pair.stage === 'derived-match' || pair.stage === 'derived-no-match') {
-          baseState.matches[pair.key] = { ...pair }
-        }
-      }
-    }
+    // Adding constraints preserves deductions from the unchanged source facts.
+    const baseState = removeDerivedMatchStages(this.state, preserveConfirmedDeductions)
     const immediateState = {
       ...baseState,
       matches: { ...baseState.matches },
@@ -3377,6 +3465,7 @@ function cloneMatchBoardState(state: MatchBoardState): MatchBoardState {
     rightPeople: clonePeople(state.rightPeople),
     addedToMatch: state.addedToMatch ? { ...state.addedToMatch } : null,
     knownAddedToMatches: state.knownAddedToMatches?.map(move => ({ ...move })),
+    knownDoubleMatchPersonId: state.knownDoubleMatchPersonId ?? null,
     matches: cloneMatches(state.matches),
     matchingNights: cloneMatchingNights(state.matchingNights),
     matchBoxes: cloneMatchBoxes(state.matchBoxes),

@@ -35,20 +35,28 @@ function createProblems(state: MatchBoardState) {
     total: night.matches,
     indices: getMatchingNightPairs(state, night).map(pair => indices.get(pair.key)!),
   }))
-  const problems: Problem[] = getSeasonDegreeOptions(state).map(degrees => ({
-    values: initialValues,
-    constraints: [
-      ...nights,
-      ...state.leftPeople.map(person => ({
-        total: degrees.left.get(person.id)!,
-        indices: pairs.flatMap((pair, index) => pair.leftId === person.id ? [index] : []),
-      })),
-      ...state.rightPeople.map(person => ({
-        total: degrees.right.get(person.id)!,
-        indices: pairs.flatMap((pair, index) => pair.rightId === person.id ? [index] : []),
-      })),
-    ],
-  }))
+  const problems: Problem[] = getSeasonDegreeOptions(state).flatMap(degrees => {
+    const values = initialValues.slice()
+    for (const key of degrees.requiredPairKeys) {
+      const index = indices.get(key)
+      if (index === undefined || values[index] === 0) return []
+      values[index] = 1
+    }
+    return [{
+      values,
+      constraints: [
+        ...nights,
+        ...state.leftPeople.map(person => ({
+          total: degrees.left.get(person.id)!,
+          indices: pairs.flatMap((pair, index) => pair.leftId === person.id ? [index] : []),
+        })),
+        ...state.rightPeople.map(person => ({
+          total: degrees.right.get(person.id)!,
+          indices: pairs.flatMap((pair, index) => pair.rightId === person.id ? [index] : []),
+        })),
+      ],
+    }]
+  })
   return { pairs, problems }
 }
 

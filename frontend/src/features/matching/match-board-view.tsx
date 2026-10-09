@@ -14,6 +14,7 @@ import {
   getAddedToMatchSharedPersonId,
   getLargerSide,
   getLargerSidePeople,
+  getKnownDoubleMatchOptions,
   isPositiveMatchStage,
   type AddedToMatchMove,
   type MatchBoardState,
@@ -53,6 +54,7 @@ type ExpectedDecisionsPanelProps = {
   onSelectPair: (pairKey: MatchKey) => void
   onRevertStage?: (pairKey: MatchKey) => void
   onSetAddedToMatch?: (move: AddedToMatchMove | null) => void
+  onSetKnownDoubleMatchPerson?: (personId: string | null) => void
 }
 
 export function PersonCard({ person, size = 'md' }: PersonCardProps) {
@@ -630,6 +632,7 @@ export function ExpectedDecisionsPanel({
   onSelectPair,
   onRevertStage,
   onSetAddedToMatch,
+  onSetKnownDoubleMatchPerson,
 }: ExpectedDecisionsPanelProps) {
   const leftPeopleById = new Map(state.leftPeople.map((person) => [person.id, person]))
   const rightPeopleById = new Map(
@@ -643,6 +646,9 @@ export function ExpectedDecisionsPanel({
     .sort((leftPair, rightPair) => leftPair.key.localeCompare(rightPair.key))
   const largerSide = getLargerSide(state)
   const addedMoves = getAddedToMatchMoves(state)
+  const knownDoubleOptions = getKnownDoubleMatchOptions(state)
+  const knownDoublePerson = knownDoubleOptions.find(person => person.id === state.knownDoubleMatchPersonId)
+  const baselineLargerSide = getLargerSide({ ...state, addedToMatch: null })
 
   function renderExpectedDecisionRow(pairKey: MatchKey, stage: 'exp-match' | 'exp-no-match') {
     const pair = state.matches[pairKey]
@@ -699,6 +705,29 @@ export function ExpectedDecisionsPanel({
       </div>
 
       <section className="decision-panel">
+        {knownDoubleOptions.length > 0 ? (
+          <section className="decision-group decision-group--added-to-match">
+            <label className="field-control">
+              <span>Known double-match participant</span>
+              <select aria-label="Known double-match participant"
+                value={state.knownDoubleMatchPersonId ?? ''}
+                disabled={!onSetKnownDoubleMatchPerson}
+                onChange={event => onSetKnownDoubleMatchPerson?.(event.target.value || null)}>
+                <option value="">Not yet known</option>
+                {knownDoubleOptions.map(person => (
+                  <option key={person.id} value={person.id}>{person.name ?? person.id}</option>
+                ))}
+              </select>
+            </label>
+            <p className="decision-group__empty">
+              {knownDoublePerson
+                ? getPersonSide(state, knownDoublePerson.id) === baselineLargerSide
+                  ? `${knownDoublePerson.name ?? knownDoublePerson.id} shares their partner with another contestant. Their partner can stay unknown.`
+                  : `${knownDoublePerson.name ?? knownDoublePerson.id} has two partners. Both partners can stay unknown.`
+                : 'Select the contestant whose involvement is confirmed. You can choose their partners later.'}
+            </p>
+          </section>
+        ) : null}
         {largerSide || addedMoves.length > 0 ? (
           <section className="decision-group decision-group--added-to-match">
             <div className="decision-group__head">

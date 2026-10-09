@@ -50,6 +50,7 @@ type UrlBoardState = {
   includeMaxMatchingNight: boolean
   expectedDecisions: ExpectedDecision[]
   addedToMatch: AddedToMatchMove | null
+  knownDoubleMatchPersonId: string | null
 }
 
 function parseMatchingNightLimit(value: string) {
@@ -137,6 +138,7 @@ function parseUrlBoardState(): UrlBoardState {
       addedPersonId && addedToMatchPairKey
         ? { personId: addedPersonId, pairKey: addedToMatchPairKey }
         : null,
+    knownDoubleMatchPersonId: params.get('knownDoubleMatchPerson')?.trim() || null,
     expectedDecisions: [
       ...expectedMatchPairKeys.map((pairKey) => ({
         pairKey,
@@ -175,6 +177,7 @@ function updateBoardUrl({
   includeMaxMatchingNight,
   expectedDecisions,
   addedToMatch,
+  knownDoubleMatchPersonId,
 }: UrlBoardState) {
   const url = new URL(window.location.href)
   const matchingNight = parseMatchingNightLimit(maxMatchingNightValue)
@@ -204,6 +207,12 @@ function updateBoardUrl({
   url.searchParams.delete('expectedNoMatch')
 
   url.searchParams.delete('doubleMatch')
+
+  if (knownDoubleMatchPersonId) {
+    url.searchParams.set('knownDoubleMatchPerson', knownDoubleMatchPersonId)
+  } else {
+    url.searchParams.delete('knownDoubleMatchPerson')
+  }
 
   if (addedToMatch) {
     url.searchParams.set('addedPerson', addedToMatch.personId)
@@ -237,6 +246,7 @@ function App() {
   const addedToMatchFromUrlRef = useRef(
     initialUrlBoardState.addedToMatch,
   )
+  const knownDoubleMatchPersonFromUrlRef = useRef(initialUrlBoardState.knownDoubleMatchPersonId)
   const animationSequenceRef = useRef(0)
   const pairSearchAbortRef = useRef<AbortController | null>(null)
   const [isSearchingPair, setIsSearchingPair] = useState(false)
@@ -303,6 +313,7 @@ function App() {
   }
 
   const applyBoardMovesFromUrl = useCallback(() => {
+    boardManager.setKnownDoubleMatchPerson(knownDoubleMatchPersonFromUrlRef.current)
     const snapshot = boardManager.setExpectedMatchStagesWithPlan(
       expectedDecisionsFromUrlRef.current,
       { skipFixedPairs: false },
@@ -481,6 +492,12 @@ function App() {
     ],
   )
 
+  const setKnownDoubleMatchPerson = useCallback((personId: string | null) => {
+    stopInferenceAnimation()
+    const plan = boardManager.setKnownDoubleMatchPersonWithPlan(personId)
+    runStageChangePlan(selectedPairKey ?? undefined, plan)
+  }, [boardManager, runStageChangePlan, selectedPairKey, stopInferenceAnimation])
+
   const loadIntoState = useCallback(
     async (signal?: AbortSignal) => {
       stopInferenceAnimation()
@@ -577,6 +594,7 @@ function App() {
 
       expectedDecisionsFromUrlRef.current = nextUrlBoardState.expectedDecisions
       addedToMatchFromUrlRef.current = nextUrlBoardState.addedToMatch
+      knownDoubleMatchPersonFromUrlRef.current = nextUrlBoardState.knownDoubleMatchPersonId
       setSelectedSeasonKey(nextUrlBoardState.seasonKey)
       setMaxMatchingNightValue(nextUrlBoardState.maxMatchingNightValue)
       setIncludeMaxMatchingNight(nextUrlBoardState.includeMaxMatchingNight)
@@ -598,12 +616,14 @@ function App() {
     const expectedDecisions = getExpectedDecisionsFromBoard(boardState)
     expectedDecisionsFromUrlRef.current = expectedDecisions
     addedToMatchFromUrlRef.current = boardState.addedToMatch
+    knownDoubleMatchPersonFromUrlRef.current = boardState.knownDoubleMatchPersonId ?? null
     updateBoardUrl({
       seasonKey: selectedSeasonKey,
       maxMatchingNightValue,
       includeMaxMatchingNight: effectiveIncludeMaxMatchingNight,
       expectedDecisions,
       addedToMatch: boardState.addedToMatch,
+      knownDoubleMatchPersonId: boardState.knownDoubleMatchPersonId ?? null,
     })
   }, [
     boardState,
@@ -663,6 +683,7 @@ function App() {
     stopInferenceAnimation()
     expectedDecisionsFromUrlRef.current = []
     addedToMatchFromUrlRef.current = null
+    knownDoubleMatchPersonFromUrlRef.current = null
     applyBoardSnapshot(clearExpectedDecisions())
     setIsLoading(true)
     setSelectedSeasonKey(nextSeasonKey)
@@ -672,6 +693,7 @@ function App() {
       includeMaxMatchingNight: effectiveIncludeMaxMatchingNight,
       expectedDecisions: [],
       addedToMatch: null,
+      knownDoubleMatchPersonId: null,
     })
   }
 
@@ -685,6 +707,7 @@ function App() {
       includeMaxMatchingNight: effectiveIncludeMaxMatchingNight,
       expectedDecisions: getExpectedDecisionsFromBoard(boardState),
       addedToMatch: boardState.addedToMatch,
+      knownDoubleMatchPersonId: boardState.knownDoubleMatchPersonId ?? null,
     })
   }
 
@@ -704,6 +727,7 @@ function App() {
       includeMaxMatchingNight: nextValue,
       expectedDecisions: getExpectedDecisionsFromBoard(boardState),
       addedToMatch: boardState.addedToMatch,
+      knownDoubleMatchPersonId: boardState.knownDoubleMatchPersonId ?? null,
     })
   }
 
@@ -891,6 +915,9 @@ function App() {
                   }
                   onSetAddedToMatch={
                     isAnimatingInference ? undefined : setAddedToMatch
+                  }
+                  onSetKnownDoubleMatchPerson={
+                    isAnimatingInference ? undefined : setKnownDoubleMatchPerson
                   }
                 />
               </section>

@@ -471,3 +471,89 @@ test('the joint solver supports both historical and new shared-partner slots', a
   setStages(state, { 'a:y': 'exp-no-match' })
   assert.equal(await solver.checkJointMatchBoardState(state), 'impossible')
 })
+
+test('a known contestant with two partners reserves the double slot before any partner is chosen', async () => {
+  const state = createBoard(['a', 'b'], ['x', 'y', 'z'])
+  const manager = new board.MatchBoardManager(state)
+  const selected = manager.setKnownDoubleMatchPerson('a')
+  assert.equal(board.summarizePersonMatchOptions(selected, 'a', 'left').requiredMatchCount, 2)
+  assert.equal(board.summarizePersonMatchOptions(selected, 'a', 'left').matchCapacity, 2)
+  assert.equal(board.summarizePersonMatchOptions(selected, 'b', 'left').matchCapacity, 1)
+  assert.equal(board.getSeasonDegreeOptions(selected).length, 1)
+  assert.ok(Object.values(selected.matches).every(pair => pair.stage === 'undefined'), 'no partner is invented')
+  assert.equal(await solver.checkJointMatchBoardState(selected), 'possible')
+})
+
+test('a known sharing partner must pair with the person who has two active partners, on either side', async () => {
+  for (const larger of ['left', 'right']) {
+    const state = larger === 'right'
+      ? createBoard(['a', 'b'], ['x', 'y', 'z'])
+      : createBoard(['a', 'b', 'c'], ['x', 'y'])
+    const knownId = larger === 'right' ? 'x' : 'a'
+    const valid = larger === 'right' ? ['a:x', 'a:z', 'b:y'] : ['a:x', 'c:x', 'b:y']
+    const invalid = larger === 'right' ? ['a:x', 'b:y', 'b:z'] : ['a:x', 'b:y', 'c:y']
+    state.knownDoubleMatchPersonId = knownId
+    const validState = structuredClone(state)
+    setStages(validState, Object.fromEntries(valid.map(key => [key, 'exp-match'])))
+    assert.equal(board.isMatchBoardStatePossible(validState), true)
+    assert.equal(await solver.checkJointMatchBoardState(validState), 'possible')
+    const invalidState = structuredClone(state)
+    setStages(invalidState, Object.fromEntries(invalid.map(key => [key, 'exp-match'])))
+    assert.equal(board.isMatchBoardStatePossible(invalidState), false)
+    assert.equal(await solver.checkJointMatchBoardState(invalidState), 'impossible')
+  }
+})
+
+test('knowing one sharing participant produces additional deductions and clearing it retracts them', async () => {
+  const state = createBoard(['a', 'b'], ['x', 'y', 'z'])
+  setStages(state, { 'b:y': 'match' })
+  const manager = new board.MatchBoardManager(state)
+  assert.equal(manager.getSnapshot().matches['a:z'].stage, 'undefined')
+  const known = manager.setKnownDoubleMatchPerson('x')
+  assert.equal(known.matches['a:z'].stage, 'derived-match')
+  assert.equal(known.matches['b:z'].stage, 'derived-no-match')
+  assert.equal(await solver.checkJointMatchBoardState(known), 'possible')
+  const cleared = manager.setKnownDoubleMatchPerson(null)
+  assert.equal(cleared.matches['a:z'].stage, 'undefined')
+  assert.equal(cleared.matches['b:z'].stage, 'undefined')
+  assert.equal(cleared.matches['b:y'].stage, 'match')
+})
+
+test('double-match deductions based on expected partners remain conditional', () => {
+  const state = createBoard(['a', 'b'], ['x', 'y', 'z'])
+  state.knownDoubleMatchPersonId = 'x'
+  setStages(state, { 'a:x': 'exp-match', 'b:y': 'match' })
+  const derived = derive(state)
+  assert.equal(derived.matches['a:z'].stage, 'derived-exp-match')
+  assert.equal(derived.matches['b:z'].stage, 'derived-exp-no-match')
+})
+
+test('known participation limits shared-match choices and preserves the historical double match', async () => {
+  const state = createBoard()
+  setStages(state, { 'a:x': 'match' })
+  state.knownAddedToMatches = [{ personId: 'b', pairKey: 'a:x' }]
+  const manager = new board.MatchBoardManager(state)
+  const known = manager.setKnownDoubleMatchPerson('y')
+  assert.equal(known.knownDoubleMatchPersonId, 'y')
+  assert.ok(board.getAddToMatchOptions(known, 'y').some(pair => pair.key === 'a:x'))
+  assert.ok(!board.getAddToMatchOptions(known, 'z').some(pair => pair.key === 'a:x'), 'y must be part of the new shared match')
+  const added = manager.setAddedToMatch({ personId: 'y', pairKey: 'a:x' })
+  assert.equal(added.knownDoubleMatchPersonId, 'y')
+  assert.equal(added.matches['b:x'].stage, 'derived-match')
+  assert.equal(await solver.checkJointMatchBoardState(added), 'possible')
+  const cleared = manager.setKnownDoubleMatchPerson(null)
+  assert.deepEqual(cleared.knownAddedToMatches, state.knownAddedToMatches)
+  assert.equal(cleared.matches['b:x'].stage, 'derived-match')
+})
+
+test('invalid double-match knowledge is diagnosed and selections do not leak into a different cutoff', async () => {
+  const state = createBoard(['a', 'b'], ['x', 'y', 'z'])
+  state.knownDoubleMatchPersonId = 'missing'
+  assert.equal(await solver.checkJointMatchBoardState(state), 'impossible')
+  assert.ok(board.getMatchBoardContradictions(state).some(item => item.id === 'known-double-match'))
+  const manager = new board.MatchBoardManager()
+  manager.hydrateFromSeasonDatapoints(currentSeasonRecords(), { maxMatchingNight: 7 })
+  assert.equal(manager.setKnownDoubleMatchPerson('laurenz').knownDoubleMatchPersonId, 'laurenz')
+  manager.hydrateFromSeasonDatapoints(currentSeasonRecords(), { maxMatchingNight: 3 })
+  assert.equal(manager.setKnownDoubleMatchPerson('laurenz').knownDoubleMatchPersonId, null)
+})
